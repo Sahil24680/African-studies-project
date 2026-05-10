@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  /* ── Backgrounds ── */
+  --color-canvas: #0A0A0F;
+  --color-card: #111118;
+  --color-panel: #18181F;
+  --color-rim: #252530;
+  --color-rim-subtle: #1A1A24;
+
+  /* ── Text ── */
+  --color-ink: #F2F0E8;
+  --color-ink-dim: #A09E96;
+  --color-ink-faint: #5C5A55;
+
+  /* ── Accent (amber) — global highlights, progress bar, timeline axis ── */
+  --color-accent: #D97706;
+  --color-accent-light: #F59E0B;
+  --color-accent-muted: #451a03;
+
+  /* ── Country accent colors ── */
+  --color-usa: #3B82F6;
+  --color-usa-muted: #1e3a5f;
+  --color-uk: #EF4444;
+  --color-uk-muted: #4a0e0e;
+  --color-brazil: #22C55E;
+  --color-brazil-muted: #052e16;
+
+  /* ── Mental health (violet) ── */
+  --color-violet: #8B5CF6;
+  --color-violet-muted: #2e1065;
+
+  /* ── Typography ── */
+  --font-display: var(--font-syne), system-ui, sans-serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-mono: var(--font-ibm-plex-mono), 'Courier New', monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #D97706 #111118;
+  }
+
+  body {
+    background-color: #0A0A0F;
+    color: #F2F0E8;
+    overflow-y: scroll;
+  }
+
+  ::selection {
+    background-color: #D97706;
+    color: #0A0A0F;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@keyframes shimmerSweep {
+  0% { background-position: 200% center; }
+  100% { background-position: -200% center; }
+}
+
+@layer components {
+  .section-wrap {
+    @apply mx-auto max-w-7xl px-6 py-24 md:px-12 lg:px-20;
+  }
+
+  .section-heading {
+    @apply font-display text-4xl font-bold tracking-tight text-ink md:text-5xl;
+  }
+
+  .body-text {
+    @apply font-sans text-lg leading-relaxed text-ink-dim;
+  }
+
+  .stat-num {
+    @apply font-mono font-medium tabular-nums leading-none;
+  }
+}
