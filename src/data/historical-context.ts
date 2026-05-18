@@ -6,103 +6,67 @@ export const historicalHero = {
 }
 
 export const historicalIntro =
-  'The policing of Black bodies did not begin with the badge. Across the United States, United Kingdom, and Brazil, systems of racial control—from slavery to colonial surveillance to mass incarceration—shaped the institutions that govern Black communities today. Understanding this history is essential to understanding the mental health crisis it has produced.'
+  'The transatlantic slave trade forced millions of Africans into slavery throughout the Americas and Europe. Countries such as the United States, United Kingdom, and Brazil profited economically from slavery and built racial systems that treated Black people as inferior. Even after slavery officially ended, Black communities continued to experience discrimination through segregation, colonial rule, racial surveillance, unequal laws, and discriminatory policing practices. These systems helped create long-lasting racial inequalities that continue to influence policing and incarceration today.'
 
 export const timeline: TimelineEvent[] = [
   {
     id: 'h-1',
-    year: '1619',
-    title: 'Transatlantic Slave Trade: Arrival in America',
+    year: 'Centuries of Slavery',
+    title: 'The Transatlantic Slave Trade',
     description:
-      'The first enslaved Africans arrive in colonial Virginia. The brutal institution of chattel slavery becomes the economic and social foundation of the American South, establishing racial hierarchy enforced through violence.',
-    country: 'USA',
-    tags: ['Slavery', 'Racial Hierarchy'],
-  },
-  {
-    id: 'h-2',
-    year: '1700s',
-    title: 'Slave Patrols: The Origins of American Policing',
-    description:
-      'Southern colonies establish formal slave patrols—organized bodies charged with controlling enslaved populations, suppressing rebellion, and returning runaways. Many historians trace the DNA of American policing directly to these patrols.',
-    country: 'USA',
-    tags: ['Slave Patrols', 'Origins of Policing'],
-  },
-  {
-    id: 'h-3',
-    year: '1500s–1800s',
-    title: 'Brazilian Slavery and Colonial Racial Control',
-    description:
-      'Brazil receives more enslaved Africans than any other country in the Americas—approximately 4.9 million people over 300 years. Colonial and later imperial Brazil develops elaborate legal codes to manage, punish, and contain the Black population.',
-    country: 'Brazil',
+      'The transatlantic slave trade forced millions of Africans into slavery throughout the Americas and Europe. Countries such as the United States, United Kingdom, and Brazil profited economically from slavery and built racial systems that treated Black people as inferior.',
+    country: 'Global',
     tags: ['Slavery', 'Colonialism'],
   },
   {
-    id: 'h-4',
-    year: '1807',
-    title: 'British Abolition of the Slave Trade',
+    id: 'h-2',
+    year: 'During Slavery',
+    title: 'Slave Patrols in the United States',
     description:
-      'Britain formally abolishes the transatlantic slave trade, though slavery in its colonies continues until 1833. The British Empire\'s involvement in enslaving millions of Africans and its colonial presence across Africa and the Caribbean shapes the racial dynamics of modern Britain.',
+      'During slavery in the United States, slave patrols were used to monitor and punish enslaved Africans. Police violence in the United States is deeply connected to this history of slavery and racial segregation.',
+    country: 'USA',
+    tags: ['Slave Patrols', 'Policing'],
+  },
+  {
+    id: 'h-3',
+    year: '300+ Years',
+    title: 'Brazilian Slavery',
+    description:
+      'Brazil imported more enslaved Africans than any other country in the Americas, and slavery lasted there for more than 300 years before officially ending in 1888. Even after slavery ended, Black Brazilians continued to experience poverty, racial discrimination, and exclusion from economic and educational opportunities.',
+    country: 'Brazil',
+    tags: ['Slavery', 'Brazil'],
+  },
+  {
+    id: 'h-4',
+    year: 'Colonial Era',
+    title: 'Britain\'s Role in Slavery and Colonialism',
+    description:
+      'The United Kingdom played a major role in the transatlantic slave trade and colonized many African and Caribbean nations. Black immigrants from former colonies often experienced discrimination in employment, education, housing, and policing after arriving in Britain.',
     country: 'UK',
-    tags: ['Abolition', 'British Empire'],
+    tags: ['Colonialism', 'UK'],
   },
   {
     id: 'h-5',
-    year: '1865',
-    title: 'End of US Slavery / Birth of Jim Crow',
+    year: 'Post-Slavery',
+    title: 'Discrimination After Slavery',
     description:
-      "The 13th Amendment ends chattel slavery, but Black Codes and later Jim Crow laws immediately re-establish racial control through law enforcement. The Reconstruction Era's promise is violently suppressed.",
+      'Even after slavery officially ended, Black communities continued to experience discrimination through segregation, colonial rule, racial surveillance, unequal laws, and discriminatory policing practices. After slavery officially ended in 1865 in the United States, Black Americans continued to experience segregation, racial violence, discriminatory laws, and over-policing through systems such as Jim Crow laws.',
     country: 'USA',
-    tags: ['Jim Crow', 'Reconstruction'],
+    tags: ['Segregation', 'Jim Crow'],
   },
   {
     id: 'h-6',
-    year: '1948',
-    title: 'Windrush Generation Arrives in Britain',
+    year: 'Ongoing',
+    title: 'Protest Movements and Resistance',
     description:
-      'Caribbean migrants invited to rebuild post-war Britain face systemic racism, including from police. The "sus" (suspected persons) law disproportionately targets Black communities for decades.',
-    country: 'UK',
-    tags: ['Immigration', 'Sus Laws'],
-  },
-  {
-    id: 'h-7',
-    year: '1964',
-    title: 'US Civil Rights Act',
-    description:
-      'Landmark legislation formally prohibits racial discrimination. Yet police violence against Black Americans continues largely unabated. The struggle exposes the gap between legal equality and lived reality.',
-    country: 'USA',
-    tags: ['Civil Rights', 'Legislation'],
-  },
-  {
-    id: 'h-8',
-    year: '1981',
-    title: 'Brixton Uprising, UK',
-    description:
-      'Mass uprising in Brixton, South London, following aggressive police "Operation Swamp 81" targeting Black youth. The subsequent Scarman Report acknowledges institutional racism while stopping short of systemic reform.',
-    country: 'UK',
-    tags: ['Uprising', 'Institutional Racism'],
-  },
-  {
-    id: 'h-9',
-    year: '1994',
-    title: "Brazil's Military Police Massacre at Candelária",
-    description:
-      'Off-duty military police officers kill eight street children—most of them Black—sleeping outside the Candelária Church in Rio de Janeiro. The massacre exposes the routine violence of Brazilian police against poor Black youth.',
-    country: 'Brazil',
-    tags: ['Police Massacre', 'Anti-Black Violence'],
-  },
-  {
-    id: 'h-10',
-    year: '2013',
-    title: 'Birth of Black Lives Matter',
-    description:
-      'Following the acquittal of Trayvon Martin\'s killer, Alicia Garza, Patrisse Cullors, and Opal Tometi create the #BlackLivesMatter hashtag, sparking a global movement against police violence.',
+      'Black communities have historically protested against racism, police brutality, segregation, and inequality. Many Black protesters fighting for equality have experienced violence, arrests, intimidation, and surveillance from police forces. The deaths of George Floyd, Breonna Taylor, and many other Black victims of police violence sparked global protests against systemic racism and police brutality.',
     country: 'Global',
-    tags: ['BLM', 'Movement Building'],
+    tags: ['Protest', 'Resistance'],
   },
 ]
 
 export const historicalQuote: Quote = {
-  text: '"Abolition requires that we imagine and build new ways to keep communities safe without relying on systems that have never been designed to keep us safe."',
-  attribution: 'Andrea J. Ritchie',
-  role: 'Becoming Abolitionists, Chapter 7',
+  text: '"The book explains how Black communities have historically resisted oppression while also discussing how policing and incarceration systems often dehumanize marginalized communities and create long-lasting emotional and psychological harm."',
+  attribution: 'Becoming Abolitionists',
+  role: 'Chapter 3: Resistance and Reform / Chapter 7: Dehumanization, Disability, and Reform',
 }

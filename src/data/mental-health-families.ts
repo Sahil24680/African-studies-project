@@ -2,74 +2,65 @@ import type { FamilyImpactType, Quote, Statistic } from '@/types'
 
 export const familiesHero = {
   headline: 'Grief Without Justice',
-  subheadline: 'How police violence reverberates through Black families — in grief, economic loss, and trauma passed across generations.',
+  subheadline: 'How police violence and mass incarceration reverberate through Black families — in grief, economic loss, and trauma passed across generations.',
 }
 
 export const familiesIntro =
-  'When police kill a Black person, the damage radiates outward. Families are shattered by grief, destabilized by sudden economic loss, and retraumatized by watching justice fail. The effects do not end with the immediate family: research on intergenerational trauma shows that the stress and fear produced by state violence can be transmitted to children who were not yet born when the violence occurred. The mental health of Black families cannot be separated from the conditions under which Black people live.'
+  'Mass incarceration refers to the large-scale imprisonment of people, especially marginalized racial groups. Black communities are disproportionately affected because of racial profiling, over-policing, and unequal sentencing practices. When police kill or incarcerate a Black person, the damage radiates outward. Families are shattered by grief, destabilized by sudden economic loss, and retraumatized by watching justice fail. The effects do not end with the immediate family — research on intergenerational trauma shows that the stress and fear produced by state violence can be transmitted to children who were not yet born when the violence occurred.'
 
 export const impactTypes: FamilyImpactType[] = [
   {
     id: 'fi-1',
-    title: 'Complicated Grief',
+    title: 'Family Separation',
     description:
-      'Families of those killed by police often experience "complicated grief"—a form of prolonged mourning intensified by the traumatic nature of the death, the public spectacle, and the denial of justice. Unlike other forms of loss, grief following police violence is compounded by anger, disbelief, and the forced reliving of trauma in coroner\'s inquiries, trials, and media coverage.',
+      'Mass incarceration and police killings tear families apart. The sudden absence of a parent or family member — whether through death or imprisonment — creates profound disruption to family structure, childhood development, and community stability. Black families are disproportionately affected by these separations due to systemic racial bias in policing and sentencing.',
     statistics: [
       {
         id: 'fi1-s1',
-        figure: '70',
-        figureNumeric: 70,
+        figure: '38',
+        figureNumeric: 38,
         suffix: '%',
-        label: 'Of bereaved family members meet criteria for complicated grief disorder',
-        source: 'Placeholder Source',
+        label: 'Of the US prison population is Black, despite being 13% of the total population',
+        source: 'NAACP Criminal Justice Fact Sheet',
       },
     ],
   },
   {
     id: 'fi-2',
-    title: 'Economic Instability',
+    title: 'Financial Hardship',
     description:
-      'Police killings frequently destroy the economic foundations of families. Primary breadwinners are killed or incarcerated; medical and legal costs accumulate; survivors may lose employment due to grief and trauma. Mass incarceration of Black men—itself a form of state violence—also creates poverty cycles that compound psychological distress in families left behind.',
+      'Police killings and incarceration frequently destroy the economic foundations of families. Primary breadwinners are killed or incarcerated; legal costs accumulate; survivors may lose employment due to grief and trauma. Mass incarceration of Black individuals — itself a form of state violence — creates poverty cycles that compound psychological distress in families left behind.',
     statistics: [
       {
         id: 'fi2-s1',
-        figure: '30',
-        figureNumeric: 30,
+        figure: '13',
+        figureNumeric: 13,
         suffix: '%',
-        label: 'Drop in household income for families following the killing of a breadwinner by police',
-        source: 'Placeholder Source',
+        label: 'Black Americans make up 13% of the US population but approximately 38% of the prison population',
+        source: 'NAACP Criminal Justice Fact Sheet',
       },
     ],
   },
   {
     id: 'fi-3',
-    title: 'Children and Developmental Trauma',
+    title: 'Children: Anxiety, Depression, and Developmental Trauma',
     description:
-      'Children who witness police violence, lose parents to police killings, or grow up in communities shaped by high policing are at elevated risk for developmental trauma, anxiety, school failure, and later mental health disorders. The "adultification" of Black children by police also means they face the direct trauma of police encounters from a much younger age.',
-    statistics: [
-      {
-        id: 'fi3-s1',
-        figure: '1 in 3',
-        figureNumeric: 33,
-        suffix: '%',
-        label: 'Black children in the US will witness police violence in their community before age 18',
-        source: 'Placeholder Source',
-      },
-    ],
+      'Children in families impacted by incarceration or police violence experience elevated anxiety and depression. Children who witness police violence, lose parents to police killings, or grow up in communities shaped by high policing are at elevated risk for developmental trauma, school failure, and long-term mental health disorders. These effects often continue across generations and contribute to long-term instability within Black communities.',
+    statistics: [],
   },
   {
     id: 'fi-4',
-    title: 'Fear and Hypervigilance Transmitted to Children',
+    title: 'Barriers to Employment and Education After Release',
     description:
-      'Parents of Black children—particularly mothers—describe intense anxiety about the safety of their children in relation to police. This "the talk"—preparing children for the reality of racist policing—is itself a form of anticipatory grief that imposes psychological burdens on children who must learn to manage their own potential victimization.',
+      'Incarceration creates lasting barriers to employment, housing, and education for those who are released. These barriers affect not only the individual but their entire family, reinforcing cycles of poverty and instability. Black communities face these challenges at disproportionate rates due to racial inequality within the criminal justice system.',
     statistics: [
       {
         id: 'fi4-s1',
-        figure: '80',
-        figureNumeric: 80,
-        suffix: '%',
-        label: 'Of Black parents in the US have had "the talk" with their children about police safety',
-        source: 'Placeholder Source',
+        figure: '3.5x',
+        figureNumeric: 3.5,
+        suffix: 'x',
+        label: 'More likely Black Americans are killed by police than white Americans — leaving families permanently affected',
+        source: 'The Lancet, 2021',
       },
     ],
   },
@@ -78,52 +69,45 @@ export const impactTypes: FamilyImpactType[] = [
 export const intergenerational = {
   title: 'Intergenerational Trauma',
   description:
-    'Emerging research in epigenetics and developmental psychology demonstrates that trauma can be transmitted across generations. Enslaved people\'s descendants show measurable physiological markers of stress. The persistent exposure of Black communities to police violence, mass incarceration, and racial terror creates conditions for this kind of transmission—where children inherit not just memories of violence but biological responses shaped by their parents\' traumatic experiences.',
+    'Research on racial trauma explains that repeated exposure to racism and violence over time can create long-term psychological harm that affects both individuals and future generations. Policies such as the War on Drugs disproportionately targeted Black neighborhoods through aggressive policing and harsher sentencing laws, creating cycles of trauma that persist across generations. The persistent exposure of Black communities to police violence, mass incarceration, and racial terror creates conditions for this kind of transmission — where children inherit not just memories of violence but the psychological and physiological responses shaped by their parents\' traumatic experiences.',
   mechanisms: [
-    'Epigenetic changes: stress hormones altering gene expression that is passed to children',
-    'Parenting under chronic stress, shaping children\'s early emotional development',
-    'Community-level erosion of safety and social cohesion across generations',
-    'Narrative transmission: stories of violence passed down as survival knowledge',
-    'Economic poverty cycles caused by mass incarceration compounding generational disadvantage',
+    'Family separation',
+    'Financial hardship',
+    'Housing instability',
+    'Emotional trauma',
+    'Anxiety and depression in children',
+    'Barriers to employment and education after release',
   ],
 }
 
 export const familiesQuote: Quote = {
-  text: '"We carry our ancestors\' pain in our bodies, in our nervous systems—every generation of Black people in this country has been asked to survive the unsurvivable."',
-  attribution: 'Placeholder — Mental Health Researcher',
-  role: 'Placeholder Source, 2023',
+  text: '"The book explains how Black communities have historically resisted oppression while also discussing how policing and incarceration systems often dehumanize marginalized communities and create long-lasting emotional and psychological harm."',
+  attribution: 'Becoming Abolitionists',
+  role: 'Chapter 7: Dehumanization, Disability, and Reform',
 }
 
 export const familiesStats: Statistic[] = [
   {
     id: 'fam-s1',
-    figure: '2x',
-    figureNumeric: 2,
-    suffix: 'x',
-    label: 'Higher rates of psychological distress in families of police violence victims',
-    source: 'Placeholder Source',
+    figure: '38',
+    figureNumeric: 38,
+    suffix: '%',
+    label: 'Of the US prison population is Black, despite making up 13% of the total US population',
+    source: 'NAACP Criminal Justice Fact Sheet',
   },
   {
     id: 'fam-s2',
-    figure: '3 yr',
-    figureNumeric: 3,
-    label: 'Average length of legal proceedings for families pursuing accountability',
-    source: 'Placeholder Source',
-  },
-  {
-    id: 'fam-s3',
-    figure: '45',
-    figureNumeric: 45,
-    suffix: '%',
-    label: 'Of Black families affected by police violence report housing instability in the following year',
-    source: 'Placeholder Source',
+    figure: '3.5x',
+    figureNumeric: 3.5,
+    suffix: 'x',
+    label: 'More likely Black Americans are killed by police than white Americans (1980–2018)',
+    source: 'The Lancet, 2021',
   },
   {
     id: 'fam-s4',
-    figure: '58',
-    figureNumeric: 58,
-    suffix: '%',
-    label: 'Of bereaved parents report their children exhibit behavioral problems after losing a family member to police violence',
-    source: 'Placeholder Source',
+    figure: '300+',
+    figureNumeric: 300,
+    label: 'Years Brazil practiced slavery — creating generational trauma that continues to affect Black Brazilian families today',
+    source: 'Human Rights Watch, 2020',
   },
 ]

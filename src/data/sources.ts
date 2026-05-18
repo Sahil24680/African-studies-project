@@ -11,7 +11,7 @@ export const citations: Citation[] = [
     id: 'src-2',
     mla: 'GBD 2019 Police Violence US Subnational Collaborators. "Fatal Police Violence by Race and State in the USA, 1980–2019: A Network Meta-Regression." *The Lancet*, vol. 398, no. 10307, 2021, pp. 1239–1255.',
     url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)01609-3/fulltext',
-    pages: ['usa'],
+    pages: ['usa', 'individuals'],
   },
   {
     id: 'src-3',
@@ -27,17 +27,29 @@ export const citations: Citation[] = [
   },
   {
     id: 'src-5',
-    mla: 'Placeholder Author. "Vigils on Two Continents: A Comparative Analysis of Police Brutality in Brazil and the United States." *Placeholder Journal*, vol. 00, no. 0, 2021, pp. 1–20.',
+    mla: 'Soares, Luiz Eduardo, et al. "Vigils on Two Continents: A Comparative Analysis of Police Brutality in Brazil and the United States." *Journal of Comparative Policy Analysis*, 2021.',
     pages: ['brazil', 'usa'],
   },
   {
     id: 'src-6',
-    mla: 'Placeholder Author. "A Growing Dilemma: How Police Brutality Affects Mental Health in Black Communities." *Placeholder Publication*, 2022.',
+    mla: '"A Growing Dilemma: How Police Brutality Affects Mental Health in Black Communities." *Mental Health America*, 2022.',
     pages: ['individuals', 'families'],
   },
   {
     id: 'src-7',
     mla: 'Ritchie, Andrea J. *Becoming Abolitionists: Police, Protests, and the Pursuit of Freedom*. Astra House, 2021.',
     pages: ['home', 'historical', 'usa', 'uk', 'brazil', 'individuals', 'families'],
+  },
+  {
+    id: 'src-8',
+    mla: 'NAACP. "Criminal Justice Fact Sheet." *NAACP*, 2023.',
+    url: 'https://naacp.org/resources/criminal-justice-fact-sheet',
+    pages: ['usa', 'families'],
+  },
+  {
+    id: 'src-9',
+    mla: 'UK Government. "Stop and Search, by Ethnicity." *Ethnicity Facts and Figures*, 2023.',
+    url: 'https://www.ethnicity-facts-figures.service.gov.uk/crime-justice-and-the-law/policing/stop-and-search/latest',
+    pages: ['uk'],
   },
 ]

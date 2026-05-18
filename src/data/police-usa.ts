@@ -5,121 +5,76 @@ export const policeUsaContent: CountryPageContent = {
   accentClass: 'usa',
   hero: {
     headline: 'Police Violence in the United States',
-    subheadline: 'A persistent crisis at the intersection of race, power, and impunity.',
+    subheadline: 'George Floyd and Police Violence in America',
   },
   intro:
-    'The United States has one of the highest rates of police killings among wealthy democracies—and racial disparities are staggering. Black Americans are killed by police at more than three times the rate of white Americans, a pattern that has persisted for decades despite waves of protest, legislation, and reform efforts. Beyond the deaths, millions more Black Americans live under the psychological weight of knowing that a routine traffic stop could be fatal.',
+    'One of the most significant examples of police violence in the United States was the killing of George Floyd in Minneapolis, Minnesota in 2020. Floyd died after police officer Derek Chauvin knelt on his neck for over nine minutes while Floyd repeatedly said, "I can\'t breathe." Video footage of the incident spread rapidly across social media and news stations around the world, leading to protests against police brutality and systemic racism in all 50 states and multiple countries. The significance of George Floyd\'s death was that it became a symbol of the long history of racial violence and unequal policing against Black Americans. Many people viewed the incident as evidence that Black individuals are treated more violently by law enforcement compared to white Americans. Floyd\'s death also strengthened the Black Lives Matter movement and increased demands for police reform and racial justice.',
   statistics: [
     {
       id: 'usa-1',
-      figure: '3.23',
-      figureNumeric: 3.23,
+      figure: '3.5x',
+      figureNumeric: 3.5,
       suffix: 'x',
-      label: 'More likely Black Americans are killed by police vs. white Americans',
-      source: 'The Lancet, 2021',
+      label: 'More likely Black Americans are killed by police vs. white Americans (1980–2018)',
+      source: 'The Lancet — Fatal Police Violence by Race and State in the USA, 2021',
     },
     {
       id: 'usa-2',
-      figure: '1,100+',
-      figureNumeric: 1100,
-      suffix: '+',
-      label: 'People killed by law enforcement annually (estimated)',
-      source: 'Mapping Police Violence, 2023',
+      figure: '30,000+',
+      figureNumeric: 30000,
+      label: 'Estimated deaths caused by police violence in the US from 1980 to 2018',
+      source: 'The Lancet — Fatal Police Violence by Race and State in the USA, 2021',
     },
     {
       id: 'usa-3',
-      figure: '28',
-      figureNumeric: 28,
+      figure: '13',
+      figureNumeric: 13,
       suffix: '%',
-      label: 'Of police killings involve Black victims, despite being 13% of the population',
-      source: 'Placeholder Source',
+      label: 'Of the US population is Black, yet Black Americans make up approximately 38% of the prison population',
+      source: 'NAACP Criminal Justice Fact Sheet',
     },
     {
       id: 'usa-4',
-      figure: '99',
-      figureNumeric: 99,
+      figure: '38',
+      figureNumeric: 38,
       suffix: '%',
-      label: 'Of police killings result in no criminal charges (2013–2021)',
-      source: 'Placeholder Source',
+      label: 'Of the US prison population is Black, despite being 13% of the total population',
+      source: 'NAACP Criminal Justice Fact Sheet',
     },
   ],
   keyEvents: [
     {
       id: 'usa-e1',
-      year: '1991',
-      name: 'Rodney King Beating',
-      location: 'Los Angeles, California',
-      description:
-        'Motorist Rodney King is severely beaten by LAPD officers in a traffic stop. Footage of the beating is captured on video—one of the first widely circulated recordings of police brutality.',
-      significance:
-        'The acquittal of the officers in 1992 sparked the LA Uprising, bringing national attention to systemic police violence against Black Americans.',
-      country: 'USA',
-    },
-    {
-      id: 'usa-e2',
-      year: '2012',
-      name: 'Trayvon Martin',
-      location: 'Sanford, Florida',
-      description:
-        '17-year-old Trayvon Martin is shot and killed by George Zimmerman, a neighborhood watch volunteer. Zimmerman\'s acquittal in 2013 catalyzes the founding of Black Lives Matter.',
-      significance:
-        'The case galvanized a new generation of activists and forced national conversations about racial profiling and the devaluation of Black life.',
-      country: 'USA',
-    },
-    {
-      id: 'usa-e3',
-      year: '2014',
-      name: 'Michael Brown / Ferguson Uprising',
-      location: 'Ferguson, Missouri',
-      description:
-        '18-year-old Michael Brown is shot and killed by a Ferguson police officer. His body is left in the street for four hours. The Ferguson community erupts in weeks of protest.',
-      significance:
-        'The Ferguson uprising became a watershed moment for the Black Lives Matter movement and spurred a Justice Department investigation that found systemic racism in Ferguson PD.',
-      country: 'USA',
-    },
-    {
-      id: 'usa-e4',
       year: '2020',
       name: 'Murder of George Floyd',
       location: 'Minneapolis, Minnesota',
       description:
-        'George Floyd dies after Minneapolis police officer Derek Chauvin kneels on his neck for over nine minutes. Bystander video goes viral globally.',
+        'George Floyd died after police officer Derek Chauvin knelt on his neck for over nine minutes while Floyd repeatedly said, "I can\'t breathe." Video footage of the incident spread rapidly across social media and news stations around the world, leading to protests against police brutality and systemic racism in all 50 states and multiple countries.',
       significance:
-        'Floyd\'s death sparked the largest protest movement in US history and global solidarity demonstrations. Officer Chauvin was convicted of murder in 2021.',
-      country: 'USA',
-    },
-    {
-      id: 'usa-e5',
-      year: '2022',
-      name: 'Murder of Tyre Nichols',
-      location: 'Memphis, Tennessee',
-      description:
-        'Tyre Nichols is beaten to death by five Memphis police officers following a traffic stop. Body camera footage is released to the public.',
-      significance:
-        'The case renewed debates about police accountability and highlighted that the race of officers does not eliminate anti-Black violence in policing.',
+        "George Floyd's death became a symbol of the long history of racial violence and unequal policing against Black Americans. Many people viewed the incident as evidence that Black individuals are treated more violently by law enforcement compared to white Americans. Floyd's death also strengthened the Black Lives Matter movement and increased demands for police reform and racial justice.",
       country: 'USA',
     },
   ],
   systemicPatterns: [
     {
-      title: 'Qualified Immunity',
+      title: 'Slave Patrols and Jim Crow Laws',
       description:
-        'The qualified immunity doctrine shields police officers from civil lawsuits unless they violated "clearly established" law. Critics argue the doctrine has made it nearly impossible to hold officers accountable and operates as a near-total shield against accountability.',
+        'Police violence in the United States is deeply connected to slavery and racial segregation. During slavery, slave patrols were used to monitor and punish enslaved Africans. After slavery officially ended in 1865, Black Americans continued to experience segregation, racial violence, discriminatory laws, and over-policing through systems such as Jim Crow laws.',
     },
     {
-      title: 'Racial Bias in Use-of-Force Decisions',
+      title: 'War on Drugs and Mass Incarceration',
       description:
-        'Research consistently finds that Black Americans face greater use of force in police encounters even when controlling for other factors. Studies using body camera data and administrative records confirm significant racial disparities in how force is applied.',
+        'Policies such as the War on Drugs disproportionately targeted Black neighborhoods through aggressive policing and harsher sentencing laws. According to the NAACP Criminal Justice Fact Sheet, Black Americans make up approximately 13% of the US population but around 38% of the prison population.',
     },
     {
-      title: 'Over-Policing in Black Neighborhoods',
+      title: 'Mental Health Effects',
       description:
-        'Broken windows policing, aggressive stop-and-frisk tactics, and concentration of policing resources in Black communities produce dramatically higher rates of surveillance, arrest, and use of force in those communities—creating cycles of traumatic encounters.',
+        'Police violence and incarceration also contribute to PTSD, anxiety, depression, chronic stress, and intergenerational trauma within Black communities. Research from PubMed — Racial Trauma: Theory, Research, and Healing explains that repeated exposure to racism and violence can create long-term psychological harm that affects both individuals and future generations.',
     },
   ],
   quote: {
-    text: '"Every time we see our people killed with impunity, a little piece of us dies too. That is by design."',
-    attribution: 'Placeholder Community Advocate',
-    role: 'Quoted in Placeholder Source, 2021',
+    text: '"Research from PubMed — Racial Trauma: Theory, Research, and Healing explains that racial trauma develops through repeated exposure to racism and violence over time. The article explains that trauma caused by racism can negatively affect emotional, psychological, and physical health."',
+    attribution: 'PubMed — Racial Trauma: Theory, Research, and Healing',
+    role: 'Referenced in the context of US police violence and mental health',
   },
 }

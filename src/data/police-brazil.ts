@@ -5,120 +5,73 @@ export const policeBrazilContent: CountryPageContent = {
   accentClass: 'brazil',
   hero: {
     headline: 'Police Violence in Brazil',
-    subheadline: 'The deadliest police force in the world—and its Black victims.',
+    subheadline: 'João Pedro and Police Violence in Brazilian Favelas',
   },
   intro:
-    'Brazil has the most lethal police in the world. In 2022, Brazilian security forces killed more than 6,400 people—a new record. The victims are overwhelmingly young, Black, and from favelas (informal communities). This violence is not incidental; it is the continuation of centuries of anti-Black state control, from slavery to Jim Crow-style segregation to the military dictatorship\'s counter-insurgency tactics now deployed against Black communities in the name of the "war on drugs."',
+    'One of the most significant examples of police violence in Brazil involved João Pedro Matos Pinto, a 14-year-old Black boy who was killed during a police raid in Rio de Janeiro in 2020. João Pedro was inside his home playing with friends when police officers entered the neighborhood during an operation and opened fire. His death caused outrage throughout Brazil and drew international attention to police violence against Black youth. The significance of João Pedro\'s death was that it highlighted how dangerous police operations in poor Black neighborhoods and favelas have become. Many Brazilians viewed the incident as an example of how Black communities are treated as targets rather than citizens deserving protection and safety. Human rights organizations argued that the case reflected broader patterns of racial inequality and excessive police violence in Brazil.',
   statistics: [
     {
       id: 'br-1',
-      figure: '6,429',
-      figureNumeric: 6429,
-      label: 'People killed by police in Brazil in 2022 — the highest on record',
-      source: 'Brazilian Public Security Forum, 2023',
+      figure: '300+',
+      figureNumeric: 300,
+      label: 'Years Brazil practiced slavery — more than any other country in the Americas',
+      source: 'Human Rights Watch, 2020',
     },
     {
       id: 'br-2',
-      figure: '79',
-      figureNumeric: 79,
-      suffix: '%',
-      label: 'Of those killed by police in Brazil are Black',
-      source: 'Brazilian Public Security Forum, 2023',
+      figure: '1888',
+      figureNumeric: 1888,
+      label: 'Year slavery officially ended in Brazil — the last country in the Americas to abolish it',
+      source: 'Human Rights Watch, 2020',
     },
     {
       id: 'br-3',
-      figure: '84',
-      figureNumeric: 84,
-      suffix: '%',
-      label: 'Of victims are under age 29 — overwhelmingly young Black men from favelas',
-      source: 'Placeholder Source',
+      figure: 'Targeted',
+      figureNumeric: 0,
+      label: 'Black Brazilians are disproportionately targeted during police operations, especially in low-income neighborhoods and favelas',
+      source: 'Human Rights Watch — UN Experts Spotlight Devastating Police Brutality in Brazil',
     },
     {
       id: 'br-4',
-      figure: '7x',
-      figureNumeric: 7,
-      suffix: 'x',
-      label: 'More likely Black Brazilians are killed by police than white Brazilians',
-      source: 'Placeholder Source',
+      figure: 'Fear',
+      figureNumeric: 0,
+      label: 'Police violence in Brazil disproportionately affects Black communities and contributes to fear, instability, and distrust toward law enforcement',
+      source: 'Vigils on Two Continents: A Comparative Analysis of Police Brutality in Brazil and the United States',
     },
   ],
   keyEvents: [
     {
       id: 'br-e1',
-      year: '1993',
-      name: 'Candelária Massacre',
-      location: 'Rio de Janeiro',
+      year: '2020',
+      name: 'Killing of João Pedro Matos Pinto',
+      location: 'Rio de Janeiro, Brazil',
       description:
-        'Off-duty military police kill eight street children—most of them Black—sleeping outside the Candelária Church. The killers are linked to death squads operating with impunity.',
+        'João Pedro Matos Pinto, a 14-year-old Black boy, was killed during a police raid in Rio de Janeiro in 2020. João Pedro was inside his home playing with friends when police officers entered the neighborhood during an operation and opened fire.',
       significance:
-        'The massacre brought international attention to extrajudicial killings in Brazil and exposed the criminalization of Black youth by the state itself.',
-      country: 'Brazil',
-    },
-    {
-      id: 'br-e2',
-      year: '1993',
-      name: 'Vigário Geral Massacre',
-      location: 'Rio de Janeiro',
-      description:
-        'Military police officers enter the Vigário Geral favela and kill 21 residents in apparent retaliation for the deaths of four officers. Most victims are shot at close range.',
-      significance:
-        'The massacre revealed the practice of collective punishment of favela communities—a tactic that continues in various forms today.',
-      country: 'Brazil',
-    },
-    {
-      id: 'br-e3',
-      year: '2010',
-      name: 'Operation Alemão / Favela Militarization',
-      location: 'Complexo do Alemão, Rio de Janeiro',
-      description:
-        'A massive military-police operation takes over the Complexo do Alemão favela complex, deploying military vehicles and more than 800 officers. The operation is widely televised as a triumph of order.',
-      significance:
-        'Critics argue the operation solidified the criminalization of favela residents and normalized military occupation of Black communities under the banner of security.',
-      country: 'Brazil',
-    },
-    {
-      id: 'br-e4',
-      year: '2019',
-      name: 'Jacarezinho and Favela Massacres under Bolsonaro',
-      location: 'Rio de Janeiro',
-      description:
-        'A series of mass police operations under Jair Bolsonaro\'s administration kill dozens at a time in Rio favelas. The 2021 Jacarezinho operation kills 28 people in a single day.',
-      significance:
-        'The massacres occur under a political mandate explicitly encouraging police lethality. Legal challenges and UN criticism do little to slow the killings.',
-      country: 'Brazil',
-    },
-    {
-      id: 'br-e5',
-      year: '2023',
-      name: 'Continued Killings Under Lula Government',
-      location: 'Nationwide, Brazil',
-      description:
-        'Despite the election of Lula, a left-leaning president, police killings remain at crisis levels. The structural drivers—militarized police, poverty, racial hierarchy—remain intact.',
-      significance:
-        'The persistence of killings across different administrations underscores that police violence in Brazil is a structural problem, not merely a product of one political party.',
+        "João Pedro's death highlighted how dangerous police operations in poor Black neighborhoods and favelas have become. Many Brazilians viewed the incident as an example of how Black communities are treated as targets rather than citizens deserving protection and safety. Human rights organizations argued that the case reflected broader patterns of racial inequality and excessive police violence in Brazil.",
       country: 'Brazil',
     },
   ],
   systemicPatterns: [
     {
-      title: 'Military Police and Residual Dictatorship',
+      title: 'Legacy of Slavery',
       description:
-        'Brazil\'s military police forces were trained under the 1964–1985 military dictatorship and retain a counter-insurgency doctrine. This doctrine frames favela residents—disproportionately Black and poor—as internal enemies to be subdued rather than citizens to be protected.',
+        'Brazil imported more enslaved Africans than any other country in the Americas, and slavery lasted there for more than 300 years before officially ending in 1888. Even after slavery ended, Black Brazilians continued to experience poverty, racial discrimination, and exclusion from economic and educational opportunities.',
     },
     {
-      title: '"Auto de Resistência" and Impunity',
+      title: 'Targeting of Black Communities and Favelas',
       description:
-        'For decades, police killings in Brazil were routinely classified as "auto de resistência" (resistance killings), effectively shielding officers from investigation. Though the classification was abolished in 2016, impunity remains the norm.',
+        'According to Human Rights Watch — UN Experts Spotlight Devastating Police Brutality in Brazil, Black Brazilians are disproportionately targeted during police operations, especially in low-income neighborhoods and favelas. Research from Vigils on Two Continents: A Comparative Analysis of Police Brutality in Brazil and the United States explains that police violence in Brazil disproportionately affects Black communities and contributes to fear, instability, and distrust toward law enforcement.',
     },
     {
-      title: 'Racial Democracy Myth and Erasure',
+      title: 'Mental Health Effects on Families and Children',
       description:
-        'Brazil\'s national ideology of "racial democracy"—the idea that the country is uniquely free from racial prejudice—has historically been used to deny the existence of anti-Black racism and deflect demands for accountability.',
+        'Mass incarceration and aggressive policing create devastating effects on Black families in Brazil, including economic hardship, family separation, emotional trauma, fear of police raids, and housing instability. Children growing up in heavily policed neighborhoods may constantly fear violence and develop emotional trauma from repeated exposure to police raids and shootings. Repeated exposure to violence can also contribute to PTSD, anxiety, depression, chronic stress, and intergenerational trauma within Black communities.',
     },
   ],
   quote: {
-    text: '"In Brazil, being Black and poor is already a death sentence. The police just carry it out."',
-    attribution: 'Placeholder — Community Voice, Rio de Janeiro',
-    role: 'Placeholder Source, 2022',
+    text: '"According to Human Rights Watch, Black Brazilians are disproportionately targeted during police operations, especially in low-income neighborhoods and favelas."',
+    attribution: 'Human Rights Watch',
+    role: 'UN Experts Spotlight Devastating Police Brutality in Brazil, 2020',
   },
 }
