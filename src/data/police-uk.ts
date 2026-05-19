@@ -22,21 +22,21 @@ export const policeUkContent: CountryPageContent = {
       figure: 'Distrust',
       figureNumeric: 0,
       label: 'Police use of force in London disproportionately affects Black communities and contributes to distrust toward police institutions',
-      source: 'The British Journal of Criminology — Racial Disparities in Civilian Response to Police Use of Force',
+      source: 'The British Journal of Criminology: Racial Disparities in Civilian Response to Police Use of Force',
     },
     {
       id: 'uk-3',
       figure: 'PTSD',
       figureNumeric: 0,
-      label: 'Repeated exposure to racism and police violence can contribute to PTSD, depression, emotional exhaustion, and fear during police encounters',
+      label: 'Repeated exposure to racism and police violence can also contribute to PTSD, depression, and fear during police encounters',
       source: 'A Growing Dilemma: How Police Brutality Affects Mental Health in Black Communities',
     },
     {
       id: 'uk-4',
-      figure: '4',
-      figureNumeric: 4,
-      label: 'Harms families experience from incarceration: financial hardship, emotional stress, family instability, anxiety and depression',
-      source: 'UK Ethnicity Facts and Figures',
+      figure: 'Impact',
+      figureNumeric: 0,
+      label: 'Families impacted by incarceration often experience financial hardship, emotional stress, family instability, and anxiety and depression',
+      source: 'A Growing Dilemma: How Police Brutality Affects Mental Health in Black Communities',
     },
   ],
   keyEvents: [
@@ -66,11 +66,11 @@ export const policeUkContent: CountryPageContent = {
     {
       title: 'Incarceration and Mental Health Effects',
       description:
-        'Black communities in Britain are also disproportionately affected by incarceration and criminal justice discrimination. Families impacted by incarceration often experience financial hardship, emotional stress, family instability, and anxiety and depression. Repeated exposure to racism and police violence can also contribute to PTSD, depression, emotional exhaustion, and fear during police encounters. Many Black Britons report feeling unsafe or unfairly targeted during interactions with police officers.',
+        'Black communities in Britain are also disproportionately affected by incarceration and criminal justice discrimination. Families impacted by incarceration often experience financial hardship, emotional stress, family instability, and anxiety and depression. Repeated exposure to racism and police violence can also contribute to PTSD, depression, and fear during police encounters. Many Black Britons report feeling unsafe or unfairly targeted during interactions with police officers.',
     },
   ],
   quote: {
-    text: '"Research published in The British Journal of Criminology — Racial Disparities in Civilian Response to Police Use of Force found that police use of force in London disproportionately affects Black communities and contributes to distrust toward police institutions."',
+    text: '"Research published in The British Journal of Criminology: Racial Disparities in Civilian Response to Police Use of Force found that police use of force in London disproportionately affects Black communities and contributes to distrust toward police institutions."',
     attribution: 'The British Journal of Criminology',
     role: 'Racial Disparities in Civilian Response to Police Use of Force',
   },

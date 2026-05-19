@@ -30,7 +30,6 @@ const FILTER_BG: Record<string, string> = {
 type Filter = 'All' | 'USA' | 'UK' | 'Brazil' | 'Global'
 
 function TimelineCard({ event, index }: { event: TimelineEvent; index: number }) {
-  const [expanded, setExpanded] = useState(false)
   const color = COUNTRY_COLORS[event.country]
 
   return (
@@ -49,10 +48,9 @@ function TimelineCard({ event, index }: { event: TimelineEvent; index: number })
         {event.year}
       </div>
 
-      <button
-        onClick={() => setExpanded(e => !e)}
+      <div
         className="w-full text-left rounded-2xl border bg-card overflow-hidden transition-all duration-300 group-hover:shadow-lg"
-        style={{ borderColor: expanded ? color : 'var(--color-rim)' }}
+        style={{ borderColor: 'var(--color-rim)' }}
       >
         {/* Thick colored top border */}
         <div className="h-1 w-full" style={{ background: color }} />
@@ -70,16 +68,6 @@ function TimelineCard({ event, index }: { event: TimelineEvent; index: number })
                 {event.country}
               </span>
             </div>
-            <motion.div
-              animate={{ rotate: expanded ? 180 : 0 }}
-              transition={{ duration: 0.25, ease: 'easeInOut' }}
-              className="flex-shrink-0 w-7 h-7 rounded-full border border-rim flex items-center justify-center mt-0.5 flex-shrink-0"
-              style={expanded ? { borderColor: color, color } : {}}
-            >
-              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <polyline points="2 4 6 8 10 4" />
-              </svg>
-            </motion.div>
           </div>
 
           <h3 className="font-display text-xl font-bold text-ink leading-tight mb-2">{event.title}</h3>
@@ -95,29 +83,9 @@ function TimelineCard({ event, index }: { event: TimelineEvent; index: number })
             </div>
           )}
 
-          {/* Preview line — always visible */}
-          <p className="text-sm text-ink-faint leading-relaxed line-clamp-2">
-            {event.description}
-          </p>
-
-          {/* Expanded content */}
-          <AnimatePresence>
-            {expanded && (
-              <motion.div
-                initial={{ height: 0, opacity: 0 }}
-                animate={{ height: 'auto', opacity: 1 }}
-                exit={{ height: 0, opacity: 0 }}
-                transition={{ duration: 0.3, ease: 'easeInOut' }}
-                className="overflow-hidden"
-              >
-                <div className="pt-4 mt-4 border-t border-rim-subtle space-y-3">
-                  <p className="text-sm text-ink-dim leading-relaxed">{event.description}</p>
-                </div>
-              </motion.div>
-            )}
-          </AnimatePresence>
+          <p className="text-sm text-ink-dim leading-relaxed">{event.description}</p>
         </div>
-      </button>
+      </div>
     </motion.div>
   )
 }

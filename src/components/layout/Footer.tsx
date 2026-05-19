@@ -26,17 +26,10 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-          <div>
-            <p className="text-xs font-mono uppercase tracking-widest text-ink-faint mb-4">Course</p>
-            <p className="text-sm text-ink-dim leading-relaxed">
-              Final Project — Global Black Experience<br />
-              Sources include <em>Becoming Abolitionists</em> by Andrea J. Ritchie and five academic sources.
-            </p>
-          </div>
         </div>
         <div className="mt-12 pt-8 border-t border-rim-subtle">
           <p className="text-xs text-ink-faint font-mono text-center">
-            © 2025 Mamota Mim &amp; Rezoan Sahil · All sources cited in MLA format on each page
+            © 2025 Mamota Mim &amp; Rezoan Sahil
           </p>
         </div>
       </div>

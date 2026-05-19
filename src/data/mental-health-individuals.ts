@@ -2,23 +2,23 @@ import type { ConditionDetail, Quote, Statistic } from '@/types'
 
 export const individualsHero = {
   headline: 'The Psychological Cost',
-  subheadline: 'How police violence shapes the mental health of Black individuals — through direct trauma, chronic stress, and the weight of witnessing.',
+  subheadline: 'How police violence shapes the mental health of Black individuals, through direct trauma, chronic stress, and the weight of witnessing.',
 }
 
 export const individualsIntro =
-  'Police violence can have devastating effects on mental health within Black communities. Repeated exposure to racism, discrimination, incarceration, and violence can contribute to long-term psychological harm. Research explains that racial trauma develops through repeated exposure to racism and violence over time, and that trauma caused by racism can negatively affect emotional, psychological, and physical health. Repeatedly viewing videos of police violence online can also psychologically traumatize Black individuals even if they were not directly involved in the incident.'
+  'Repeated exposure to racism, discrimination, incarceration, and violence can contribute to long-term psychological harm within Black communities. According to "A Growing Dilemma: How Police Brutality Affects Mental Health in Black Communities," police brutality can contribute to PTSD, anxiety, depression, fear during police encounters, chronic stress, and intergenerational trauma. Police violence impacts more than the individuals who are directly involved. Their families and communities are affected emotionally and socially because losing someone or witnessing their incarceration can cause grief, fear, and mistrust towards law enforcement and the justice system.'
 
 export const conditions: ConditionDetail[] = [
   {
     id: 'c-1',
     condition: 'Post-Traumatic Stress Disorder (PTSD)',
     definition:
-      'PTSD develops following exposure to traumatic events. For Black individuals, police encounters themselves — even without physical harm — can be traumatic enough to trigger PTSD symptoms. Racial trauma developed through exposure to racism and discrimination increases stress levels and can psychologically traumatize Black individuals and their families.',
+      'PTSD develops following exposure to traumatic events. For Black individuals, police encounters themselves, even without physical harm, can be traumatic enough to trigger PTSD symptoms. Racial trauma developed through exposure to racism and discrimination increases stress levels and can psychologically traumatize Black individuals and their families.',
     prevalence:
-      'Research published in PubMed on Racial Trauma: Theory, Research, and Healing explains that racial trauma develops through repeated exposure to racism and violence over time. Black communities experience PTSD at significantly higher rates than white communities, with police violence identified as a key contributing factor.',
+      'Repeated exposure to racism, discrimination, incarceration, and violence can contribute to long-term psychological harm. Black communities experience PTSD at significantly higher rates, with police violence identified as a key contributing factor.',
     symptoms: [
       'Flashbacks and intrusive memories of violent encounters',
-      'Hypervigilance — constant alertness to threat, especially near police',
+      'Hypervigilance, constant alertness to threat, especially near police',
       'Avoidance of situations that might involve police contact',
       'Sleep disturbances and nightmares',
       'Emotional numbness and detachment',
@@ -27,18 +27,17 @@ export const conditions: ConditionDetail[] = [
   },
   {
     id: 'c-2',
-    condition: 'Anxiety and Hypervigilance',
+    condition: 'Anxiety',
     definition:
-      'Chronic exposure to the threat of police violence produces persistent anxiety and hypervigilance — a state of constant readiness for danger that is deeply corrosive to mental and physical health. Fear during police encounters is a documented psychological effect of repeated exposure to police brutality within Black communities.',
+      'Chronic exposure to the threat of police violence produces persistent anxiety. Fear during police encounters is a documented psychological effect of repeated exposure to police brutality within Black communities.',
     prevalence:
-      'Studies find that Black individuals report significantly higher rates of anxiety related to police contact. Many describe ongoing hypervigilance as a survival strategy shaped by generations of racial violence and discriminatory policing.',
+      'Black individuals report significantly higher rates of anxiety related to police contact. Police violence impacts more than the individuals who are directly involved, their families and communities are affected emotionally and socially.',
     symptoms: [
-      'Panic responses when seeing police cars or officers',
+      'Fear during police encounters',
       'Persistent worry about the safety of family members',
       'Physical symptoms: elevated heart rate, difficulty breathing',
       'Difficulty concentrating due to constant threat monitoring',
       'Social withdrawal to reduce perceived risk',
-      'Fear during police encounters',
     ],
     statistics: [
       {
@@ -46,7 +45,7 @@ export const conditions: ConditionDetail[] = [
         figure: '38',
         figureNumeric: 38,
         suffix: '%',
-        label: 'Of the US prison population is Black, despite being 13% of the total population — a driver of community-level anxiety',
+        label: 'Black Americans make up approximately 13% of the US population but around 38% of the prison population',
         source: 'NAACP Criminal Justice Fact Sheet',
       },
     ],
@@ -55,16 +54,15 @@ export const conditions: ConditionDetail[] = [
     id: 'c-3',
     condition: 'Depression',
     definition:
-      'Repeated exposure to violence, loss, and systemic injustice — combined with the helplessness of seeing perpetrators face no consequences — is strongly associated with clinical depression. Police brutality can contribute to emotional exhaustion and depression, especially in communities that experience this violence as ongoing and inescapable.',
+      'Repeated exposure to violence, loss, and systemic injustice is strongly associated with clinical depression. Police brutality can contribute to depression, especially in communities that experience this violence as ongoing and inescapable.',
     prevalence:
-      'Research links community-level police violence to increased rates of depression in Black communities, even among those not directly involved in violent incidents. Children in families affected by incarceration also experience elevated anxiety and depression.',
+      'Research links community-level police violence to increased rates of depression in Black communities. Losing someone or witnessing their incarceration can cause grief, fear, and mistrust towards law enforcement and the justice system.',
     symptoms: [
       'Persistent sadness and hopelessness following high-profile killings',
-      'Emotional exhaustion from repeated exposure to violence',
+      'Grief from losing someone to police violence or incarceration',
       'Loss of interest in community engagement and civic life',
       'Feelings of powerlessness and futility',
-      'Difficulty sustaining relationships and employment',
-      'Increased substance use as a coping mechanism',
+      'Mistrust towards law enforcement and the justice system',
     ],
     statistics: [
       {
@@ -78,16 +76,16 @@ export const conditions: ConditionDetail[] = [
   },
   {
     id: 'c-4',
-    condition: 'Chronic Stress and Racial Trauma',
+    condition: 'Chronic Stress and Intergenerational Trauma',
     definition:
-      'Racial trauma develops through repeated exposure to racism and violence over time. According to research on racial trauma theory, trauma caused by racism can negatively affect emotional, psychological, and physical health in ways that are lasting and cumulative. This chronic stress affects Black individuals even when they are not direct victims of police violence.',
+      'Racial trauma develops through repeated exposure to racism and violence over time. As a result, repeated exposure to racism and violence can create long-term psychological harm that affects both individuals and future generations.',
     prevalence:
-      'Racial trauma is recognized by researchers as a significant driver of health disparities in Black communities globally. The cumulative burden of police encounters, alongside everyday discrimination, constitutes a form of chronic stress with distinct psychological and physiological consequences.',
+      'Communities with high incarceration rates have a higher chance of poverty, limited opportunities, and mistrust of government officials. This chronic stress contributes to intergenerational trauma within Black communities.',
     symptoms: [
-      'Chronic exhaustion from constant vigilance',
-      'Frustration and anger with little outlet for expression',
-      'Psychosomatic symptoms: headaches, elevated blood pressure, stomach issues',
-      'Disillusionment with institutions, including healthcare and law enforcement',
+      'Chronic stress from constant exposure to racial violence',
+      'Fear of police raids and encounters',
+      'Intergenerational transmission of trauma to children',
+      'Mistrust of government officials and institutions',
       'Long-term psychological harm affecting future generations',
     ],
     statistics: [
@@ -96,7 +94,7 @@ export const conditions: ConditionDetail[] = [
         figure: '3.5x',
         figureNumeric: 3.5,
         suffix: 'x',
-        label: 'More likely Black Americans are killed by police than white Americans (1980–2018)',
+        label: 'More likely Black Americans are killed by police than white Americans (1980 to 2018)',
         source: 'The Lancet, 2021',
       },
     ],
@@ -105,29 +103,29 @@ export const conditions: ConditionDetail[] = [
 
 export const researchHighlights: { title: string; finding: string; source: string }[] = [
   {
-    title: 'Racial Trauma: Theory, Research, and Healing',
-    finding:
-      'Research published on PubMed explains that racial trauma develops through repeated exposure to racism and violence over time. The study explains that trauma caused by racism can negatively affect emotional, psychological, and physical health in ways that are lasting and cumulative across generations.',
-    source: 'PubMed — Racial Trauma: Theory, Research, and Healing',
-  },
-  {
     title: 'Police Brutality and Mental Health in Black Communities',
     finding:
-      'According to A Growing Dilemma: How Police Brutality Affects Mental Health in Black Communities, police brutality can contribute to PTSD, anxiety, depression, emotional exhaustion, fear during police encounters, chronic stress, and intergenerational trauma. The article also explains that repeatedly viewing videos of police violence online can psychologically traumatize Black individuals even if they were not directly involved.',
+      'According to "A Growing Dilemma: How Police Brutality Affects Mental Health in Black Communities," police brutality can contribute to PTSD, anxiety, depression, fear during police encounters, chronic stress, and intergenerational trauma. Police violence impacts more than the individuals who are directly involved, their families and communities are affected emotionally and socially because losing someone or witnessing their incarceration can cause grief, fear, and mistrust towards law enforcement and the justice system.',
     source: 'A Growing Dilemma: How Police Brutality Affects Mental Health in Black Communities',
+  },
+  {
+    title: 'Racial Trauma: Theory, Research, and Healing',
+    finding:
+      'Repeated exposure to racism, discrimination, incarceration, and violence can contribute to long-term psychological harm within Black communities. As a result, PubMed: Racial Trauma: Theory, Research, and Healing explains that repeated exposure to racism and violence can create long-term psychological harm that affects both individuals and future generations.',
+    source: 'PubMed: Racial Trauma: Theory, Research, and Healing',
   },
   {
     title: 'Fatal Police Violence by Race and State in the USA',
     finding:
-      'Research published in The Lancet found that Black Americans were approximately 3.5 times more likely to be killed by police than white Americans between 1980 and 2018. The study also estimated that police violence caused more than 30,000 deaths during that period.',
-    source: 'The Lancet — Fatal Police Violence by Race and State in the USA, 2021',
+      'Between 1980 and 2018, Black Americans were about 3.5 times more likely to be killed by police than white Americans and police violence caused more than 30,000 deaths during that period.',
+    source: 'The Lancet: Fatal Police Violence by Race and State in the USA, 2021',
   },
 ]
 
 export const individualsQuote: Quote = {
-  text: '"Research from PubMed — Racial Trauma: Theory, Research, and Healing explains that racial trauma develops through repeated exposure to racism and violence over time. The article explains that trauma caused by racism can negatively affect emotional, psychological, and physical health."',
-  attribution: 'PubMed — Racial Trauma: Theory, Research, and Healing',
-  role: 'Cited in: A Growing Dilemma: How Police Brutality Affects Mental Health in Black Communities',
+  text: '"Repeated exposure to racism, discrimination, incarceration, and violence can contribute to long-term psychological harm within Black communities."',
+  attribution: 'A Growing Dilemma: How Police Brutality Affects Mental Health in Black Communities',
+  role: 'Referenced in the context of police violence and mental health',
 }
 
 export const individualsStats: Statistic[] = [
@@ -136,7 +134,7 @@ export const individualsStats: Statistic[] = [
     figure: '3.5x',
     figureNumeric: 3.5,
     suffix: 'x',
-    label: 'More likely Black Americans are killed by police than white Americans (1980–2018)',
+    label: 'More likely Black Americans are killed by police than white Americans (1980 to 2018)',
     source: 'The Lancet, 2021',
   },
   {

@@ -26,7 +26,7 @@ export default function MentalHealthFamiliesPage() {
       <HeroSection
         headline={familiesHero.headline}
         subheadline={familiesHero.subheadline}
-        eyebrow="Mental Health — Families"
+        eyebrow="Mental Health: Families"
         accentColor="violet"
       />
 

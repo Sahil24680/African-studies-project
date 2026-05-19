@@ -22,6 +22,9 @@ export default function Iridescence({ className, opacity = 0.18 }: Props) {
     }
     resize()
 
+    const ro = new ResizeObserver(resize)
+    ro.observe(canvas)
+
     const onMove = (e: MouseEvent) => {
       const rect = canvas.getBoundingClientRect()
       mouse.current.x = (e.clientX - rect.left) / rect.width
@@ -33,15 +36,19 @@ export default function Iridescence({ className, opacity = 0.18 }: Props) {
     const draw = () => {
       t += 0.008
       const { width, height } = canvas
+      if (!width || !height) {
+        raf.current = requestAnimationFrame(draw)
+        return
+      }
       ctx.clearRect(0, 0, width, height)
 
       const mx = mouse.current.x
       const my = mouse.current.y
 
       const orbs = [
-        { x: (0.3 + Math.sin(t) * 0.25 + mx * 0.15) * width, y: (0.3 + Math.cos(t * 0.7) * 0.25 + my * 0.15) * height, r: width * 0.55, h: (t * 35) % 360 },
-        { x: (0.7 + Math.cos(t * 1.2) * 0.2 + mx * 0.1) * width, y: (0.6 + Math.sin(t * 0.9) * 0.2 + my * 0.1) * height, r: width * 0.45, h: (t * 35 + 110) % 360 },
-        { x: (0.5 + Math.sin(t * 0.6 + 1) * 0.3) * width, y: (0.5 + Math.cos(t * 1.1 + 2) * 0.25) * height, r: width * 0.4, h: (t * 35 + 230) % 360 },
+        { x: (0.3 + Math.sin(t) * 0.25 + mx * 0.15) * width, y: (0.3 + Math.cos(t * 0.7) * 0.25 + my * 0.15) * height, r: Math.max(1, width * 0.55), h: (t * 35) % 360 },
+        { x: (0.7 + Math.cos(t * 1.2) * 0.2 + mx * 0.1) * width, y: (0.6 + Math.sin(t * 0.9) * 0.2 + my * 0.1) * height, r: Math.max(1, width * 0.45), h: (t * 35 + 110) % 360 },
+        { x: (0.5 + Math.sin(t * 0.6 + 1) * 0.3) * width, y: (0.5 + Math.cos(t * 1.1 + 2) * 0.25) * height, r: Math.max(1, width * 0.4), h: (t * 35 + 230) % 360 },
       ]
 
       for (const orb of orbs) {
@@ -59,6 +66,7 @@ export default function Iridescence({ className, opacity = 0.18 }: Props) {
 
     return () => {
       window.removeEventListener('mousemove', onMove)
+      ro.disconnect()
       if (raf.current) cancelAnimationFrame(raf.current)
     }
   }, [opacity])

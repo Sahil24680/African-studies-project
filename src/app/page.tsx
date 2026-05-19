@@ -18,10 +18,12 @@ export const metadata: Metadata = { title: 'Home' }
 const homeSources = citations.filter(c => c.pages?.includes('home'))
 
 const mentalHealthEffects = [
-  { label: 'PTSD', desc: 'Flashbacks, hypervigilance, and trauma responses triggered by police encounters—even without physical harm.' },
-  { label: 'Anxiety & Depression', desc: 'Persistent fear, helplessness, and grief from watching violence go unpunished affect entire communities.' },
-  { label: 'Racial Battle Fatigue', desc: 'The cumulative psychological toll of navigating racism and the constant threat of state violence.' },
-  { label: 'Intergenerational Trauma', desc: 'Stress and fear from police violence transmitted to children—biologically and through lived experience.' },
+  { label: 'PTSD', desc: 'Racial trauma developed through exposure to racism and discrimination increases stress levels and can psychologically traumatize Black individuals and their families.' },
+  { label: 'Anxiety', desc: 'Chronic exposure to the threat of police violence produces persistent anxiety. Fear during police encounters is a documented psychological effect of repeated exposure to police brutality within Black communities.' },
+  { label: 'Depression', desc: 'Losing someone or witnessing their incarceration can cause grief, fear, and mistrust towards law enforcement and the justice system.' },
+  { label: 'Fear During Police Encounters', desc: 'Police violence impacts more than the individuals who are directly involved. Their families and communities are affected emotionally and socially.' },
+  { label: 'Chronic Stress', desc: 'Repeated exposure to racism, discrimination, incarceration, and violence can contribute to long-term psychological harm within Black communities.' },
+  { label: 'Intergenerational Trauma', desc: 'Repeated exposure to racism and violence can create long-term psychological harm that affects both individuals and future generations.' },
 ]
 
 export default function HomePage() {
@@ -66,7 +68,7 @@ export default function HomePage() {
       <section className="section-wrap border-t border-rim">
         <AnimatedContent className="mb-6">
           <ShinyText
-            text="THESIS"
+            text="INTRO"
             as="span"
             className="font-mono text-xs uppercase tracking-[0.25em] text-accent"
             shimmerColor="#FCD34D"
@@ -75,7 +77,7 @@ export default function HomePage() {
         </AnimatedContent>
         <div className="max-w-3xl">
           <ScrollReveal
-            text={homeHero.thesis}
+            text={homeHero.intro}
             className="font-display text-2xl md:text-3xl font-bold text-ink leading-snug"
           />
         </div>
@@ -128,18 +130,18 @@ export default function HomePage() {
             {[
               {
                 label: 'United States', href: '/police-violence-usa', accent: 'usa', flag: '🇺🇸',
-                stat: '3.23×', statLabel: 'more likely Black Americans are killed by police',
-                desc: 'From slave patrols to modern use-of-force — tracing centuries of anti-Black policing.',
+                stat: '3.5×', statLabel: 'Black Americans were about 3.5 times more likely to be killed by police than white Americans',
+                desc: 'During slavery, slave patrols were used to monitor enslaved Africans, especially to prevent them from escaping. Even after slavery officially ended in 1865, Black Americans continued to experience segregation, racial violence, and discriminatory laws such as Jim Crow laws.',
               },
               {
                 label: 'United Kingdom', href: '/police-violence-uk', accent: 'uk', flag: '🇬🇧',
-                stat: '9×', statLabel: 'more likely Black people face stop-and-search',
-                desc: 'Sus laws, Brixton, Stephen Lawrence — racism embedded in British institutions.',
+                stat: 'Higher', statLabel: 'Black people in England and Wales are stopped and searched at significantly higher rates than white people',
+                desc: "One major issue in the UK is stop-and-search policing practices. Britain's history of slavery and colonialism also contributed to racial inequality within policing.",
               },
               {
                 label: 'Brazil', href: '/police-violence-brazil', accent: 'brazil', flag: '🇧🇷',
-                stat: '6,429', statLabel: 'people killed by police in 2022 — a record',
-                desc: 'The world\'s deadliest police force and its disproportionate toll on Black Brazilians.',
+                stat: '300+', statLabel: 'years Brazil practiced slavery before officially ending in 1888',
+                desc: 'Brazil imported more enslaved Africans than any other country in the Americas, and slavery lasted there for more than 300 years before officially ending in 1888.',
               },
             ].map((item, i) => (
               <AnimatedContent key={item.href} delay={i * 0.1}>
@@ -182,7 +184,7 @@ export default function HomePage() {
         </AnimatedContent>
         <AnimatedContent delay={0.05} className="mb-12">
           <h2 className="section-heading max-w-2xl">
-            Beyond the physical harm — the psychological toll
+            Beyond the physical harm, the psychological toll
           </h2>
         </AnimatedContent>
 
@@ -201,8 +203,8 @@ export default function HomePage() {
         {/* Mental health page links */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {[
-            { href: '/mental-health-individuals', label: 'Effects on Individuals', desc: 'PTSD, anxiety, depression, and racial battle fatigue — the direct psychological impact on Black people who face or witness police violence.' },
-            { href: '/mental-health-families', label: 'Effects on Families', desc: 'Complicated grief, economic instability, and trauma that crosses generations — how policing reshapes Black family life.' },
+            { href: '/mental-health-individuals', label: 'Effects on Individuals', desc: 'According to "A Growing Dilemma: How Police Brutality Affects Mental Health in Black Communities," police brutality can contribute to PTSD, anxiety, depression, fear during police encounters, chronic stress, and intergenerational trauma.' },
+            { href: '/mental-health-families', label: 'Effects on Families', desc: 'Mass incarceration affects families through family separation, financial hardship, housing instability, emotional trauma, anxiety and depression in children, and restriction on employment and education after release.' },
           ].map((item, i) => (
             <AnimatedContent key={item.href} delay={i * 0.1}>
               <Link

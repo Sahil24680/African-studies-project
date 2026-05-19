@@ -2,18 +2,18 @@ import type { FamilyImpactType, Quote, Statistic } from '@/types'
 
 export const familiesHero = {
   headline: 'Grief Without Justice',
-  subheadline: 'How police violence and mass incarceration reverberate through Black families — in grief, economic loss, and trauma passed across generations.',
+  subheadline: 'How police violence and mass incarceration reverberate through Black families, in grief, economic loss, and trauma passed across generations.',
 }
 
 export const familiesIntro =
-  'Mass incarceration refers to the large-scale imprisonment of people, especially marginalized racial groups. Black communities are disproportionately affected because of racial profiling, over-policing, and unequal sentencing practices. When police kill or incarcerate a Black person, the damage radiates outward. Families are shattered by grief, destabilized by sudden economic loss, and retraumatized by watching justice fail. The effects do not end with the immediate family — research on intergenerational trauma shows that the stress and fear produced by state violence can be transmitted to children who were not yet born when the violence occurred.'
+  'Mass incarceration is the high rate of imprisonment of people, especially marginalized groups. Black communities are disproportionately affected because of racial profiling, over-policing, and unequal sentencing. According to the NAACP Criminal Justice Fact Sheet, Black Americans are incarcerated at significantly higher rates than white Americans and are portrayed as criminals even for minor actions. This form of racial inequality in incarceration systems is also shown in the United Kingdom and Brazil. Also, communities with high incarceration rates, regardless of the country, have a higher chance of poverty, limited opportunities, and mistrust of government officials. Even though the system has always been against them, Black communities have resisted racism through protests and social movements to bring global attention to racial discrimination.'
 
 export const impactTypes: FamilyImpactType[] = [
   {
     id: 'fi-1',
     title: 'Family Separation',
     description:
-      'Mass incarceration and police killings tear families apart. The sudden absence of a parent or family member — whether through death or imprisonment — creates profound disruption to family structure, childhood development, and community stability. Black families are disproportionately affected by these separations due to systemic racial bias in policing and sentencing.',
+      'Mass incarceration and police killings tear families apart. Black families are disproportionately affected because of racial profiling, over-policing, and unequal sentencing. According to the NAACP Criminal Justice Fact Sheet, Black Americans are incarcerated at significantly higher rates than white Americans.',
     statistics: [
       {
         id: 'fi1-s1',
@@ -29,7 +29,7 @@ export const impactTypes: FamilyImpactType[] = [
     id: 'fi-2',
     title: 'Financial Hardship',
     description:
-      'Police killings and incarceration frequently destroy the economic foundations of families. Primary breadwinners are killed or incarcerated; legal costs accumulate; survivors may lose employment due to grief and trauma. Mass incarceration of Black individuals — itself a form of state violence — creates poverty cycles that compound psychological distress in families left behind.',
+      'Communities with high incarceration rates have a higher chance of poverty and limited opportunities. Black Americans are portrayed as criminals even for minor actions, leading to disproportionate incarceration that destroys the economic foundations of families.',
     statistics: [
       {
         id: 'fi2-s1',
@@ -43,23 +43,23 @@ export const impactTypes: FamilyImpactType[] = [
   },
   {
     id: 'fi-3',
-    title: 'Children: Anxiety, Depression, and Developmental Trauma',
+    title: 'Anxiety and Depression in Children',
     description:
-      'Children in families impacted by incarceration or police violence experience elevated anxiety and depression. Children who witness police violence, lose parents to police killings, or grow up in communities shaped by high policing are at elevated risk for developmental trauma, school failure, and long-term mental health disorders. These effects often continue across generations and contribute to long-term instability within Black communities.',
+      'Children in families impacted by incarceration or police violence experience elevated anxiety and depression. Losing someone or witnessing their incarceration can cause grief, fear, and mistrust towards law enforcement and the justice system.',
     statistics: [],
   },
   {
     id: 'fi-4',
-    title: 'Barriers to Employment and Education After Release',
+    title: 'Restriction on Employment and Education After Release',
     description:
-      'Incarceration creates lasting barriers to employment, housing, and education for those who are released. These barriers affect not only the individual but their entire family, reinforcing cycles of poverty and instability. Black communities face these challenges at disproportionate rates due to racial inequality within the criminal justice system.',
+      'Incarceration creates lasting restrictions on employment, housing, and education for those who are released. Communities with high incarceration rates have a higher chance of poverty, limited opportunities, and mistrust of government officials. These restrictions affect not only the individual but their entire family.',
     statistics: [
       {
         id: 'fi4-s1',
         figure: '3.5x',
         figureNumeric: 3.5,
         suffix: 'x',
-        label: 'More likely Black Americans are killed by police than white Americans — leaving families permanently affected',
+        label: 'More likely Black Americans are killed by police than white Americans between 1980 and 2018',
         source: 'The Lancet, 2021',
       },
     ],
@@ -69,14 +69,14 @@ export const impactTypes: FamilyImpactType[] = [
 export const intergenerational = {
   title: 'Intergenerational Trauma',
   description:
-    'Research on racial trauma explains that repeated exposure to racism and violence over time can create long-term psychological harm that affects both individuals and future generations. Policies such as the War on Drugs disproportionately targeted Black neighborhoods through aggressive policing and harsher sentencing laws, creating cycles of trauma that persist across generations. The persistent exposure of Black communities to police violence, mass incarceration, and racial terror creates conditions for this kind of transmission — where children inherit not just memories of violence but the psychological and physiological responses shaped by their parents\' traumatic experiences.',
+    'As a result of repeated exposure to racism and violence, PubMed: Racial Trauma: Theory, Research, and Healing explains that this can create long-term psychological harm that affects both individuals and future generations. Communities with high incarceration rates, regardless of the country, have a higher chance of poverty, limited opportunities, and mistrust of government officials. These effects often continue across generations and contribute to long-term instability within Black communities.',
   mechanisms: [
     'Family separation',
     'Financial hardship',
     'Housing instability',
     'Emotional trauma',
     'Anxiety and depression in children',
-    'Barriers to employment and education after release',
+    'Restriction on employment and education after release',
   ],
 }
 
@@ -100,14 +100,14 @@ export const familiesStats: Statistic[] = [
     figure: '3.5x',
     figureNumeric: 3.5,
     suffix: 'x',
-    label: 'More likely Black Americans are killed by police than white Americans (1980–2018)',
+    label: 'More likely Black Americans are killed by police than white Americans (1980 to 2018)',
     source: 'The Lancet, 2021',
   },
   {
     id: 'fam-s4',
     figure: '300+',
     figureNumeric: 300,
-    label: 'Years Brazil practiced slavery — creating generational trauma that continues to affect Black Brazilian families today',
+    label: 'Years Brazil practiced slavery before officially ending in 1888',
     source: 'Human Rights Watch, 2020',
   },
 ]

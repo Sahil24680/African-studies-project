@@ -14,14 +14,15 @@ export const policeBrazilContent: CountryPageContent = {
       id: 'br-1',
       figure: '300+',
       figureNumeric: 300,
-      label: 'Years Brazil practiced slavery — more than any other country in the Americas',
+      suffix: '+',
+      label: 'Slavery lasted there for more than 300 years before officially ending in 1888',
       source: 'Human Rights Watch, 2020',
     },
     {
       id: 'br-2',
       figure: '1888',
       figureNumeric: 1888,
-      label: 'Year slavery officially ended in Brazil — the last country in the Americas to abolish it',
+      label: 'Brazil imported more enslaved Africans than any other country in the Americas, and slavery lasted there for more than 300 years before officially ending in 1888',
       source: 'Human Rights Watch, 2020',
     },
     {
@@ -29,7 +30,7 @@ export const policeBrazilContent: CountryPageContent = {
       figure: 'Targeted',
       figureNumeric: 0,
       label: 'Black Brazilians are disproportionately targeted during police operations, especially in low-income neighborhoods and favelas',
-      source: 'Human Rights Watch — UN Experts Spotlight Devastating Police Brutality in Brazil',
+      source: 'Human Rights Watch: UN Experts Spotlight Devastating Police Brutality in Brazil',
     },
     {
       id: 'br-4',
@@ -61,7 +62,7 @@ export const policeBrazilContent: CountryPageContent = {
     {
       title: 'Targeting of Black Communities and Favelas',
       description:
-        'According to Human Rights Watch — UN Experts Spotlight Devastating Police Brutality in Brazil, Black Brazilians are disproportionately targeted during police operations, especially in low-income neighborhoods and favelas. Research from Vigils on Two Continents: A Comparative Analysis of Police Brutality in Brazil and the United States explains that police violence in Brazil disproportionately affects Black communities and contributes to fear, instability, and distrust toward law enforcement.',
+        'According to Human Rights Watch: UN Experts Spotlight Devastating Police Brutality in Brazil, Black Brazilians are disproportionately targeted during police operations, especially in low-income neighborhoods and favelas. Research from Vigils on Two Continents: A Comparative Analysis of Police Brutality in Brazil and the United States explains that police violence in Brazil disproportionately affects Black communities and contributes to fear, instability, and distrust toward law enforcement.',
     },
     {
       title: 'Mental Health Effects on Families and Children',

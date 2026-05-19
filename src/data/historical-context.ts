@@ -6,15 +6,15 @@ export const historicalHero = {
 }
 
 export const historicalIntro =
-  'The transatlantic slave trade forced millions of Africans into slavery throughout the Americas and Europe. Countries such as the United States, United Kingdom, and Brazil profited economically from slavery and built racial systems that treated Black people as inferior. Even after slavery officially ended, Black communities continued to experience discrimination through segregation, colonial rule, racial surveillance, unequal laws, and discriminatory policing practices. These systems helped create long-lasting racial inequalities that continue to influence policing and incarceration today.'
+  'From the 16th to the 19th century, the transatlantic slave trade forced millions of Africans into slavery throughout Europe and the Americas. Once captured by Europeans, enslaved Africans were dehumanized and treated as property for the rest of their lives. Countries such as the United States, United Kingdom, and Brazil all profited economically from slavery and created racial hierarchies that justified the oppression of Black people. Even after slavery was abolished, its racial inequality still continued through segregation, discriminatory laws, and racial surveillance. Reinforcing negative stereotypes about Black communities has led to high rates of mass incarceration and everlasting racial inequalities throughout the world.'
 
 export const timeline: TimelineEvent[] = [
   {
     id: 'h-1',
-    year: 'Centuries of Slavery',
+    year: '16th to 19th Century',
     title: 'The Transatlantic Slave Trade',
     description:
-      'The transatlantic slave trade forced millions of Africans into slavery throughout the Americas and Europe. Countries such as the United States, United Kingdom, and Brazil profited economically from slavery and built racial systems that treated Black people as inferior.',
+      'From the 16th to the 19th century, the transatlantic slave trade forced millions of Africans into slavery throughout Europe and the Americas. Once captured by Europeans, enslaved Africans were dehumanized and treated as property for the rest of their lives. Countries such as the United States, United Kingdom, and Brazil all profited economically from slavery and created racial hierarchies that justified the oppression of Black people.',
     country: 'Global',
     tags: ['Slavery', 'Colonialism'],
   },
@@ -23,7 +23,7 @@ export const timeline: TimelineEvent[] = [
     year: 'During Slavery',
     title: 'Slave Patrols in the United States',
     description:
-      'During slavery in the United States, slave patrols were used to monitor and punish enslaved Africans. Police violence in the United States is deeply connected to this history of slavery and racial segregation.',
+      'During slavery in the United States, slave patrols were used to monitor enslaved Africans, especially to prevent them from escaping. Police violence in the United States is deeply connected to this history of slavery and racial segregation.',
     country: 'USA',
     tags: ['Slave Patrols', 'Policing'],
   },
@@ -39,7 +39,7 @@ export const timeline: TimelineEvent[] = [
   {
     id: 'h-4',
     year: 'Colonial Era',
-    title: 'Britain\'s Role in Slavery and Colonialism',
+    title: "Britain's Role in Slavery and Colonialism",
     description:
       'The United Kingdom played a major role in the transatlantic slave trade and colonized many African and Caribbean nations. Black immigrants from former colonies often experienced discrimination in employment, education, housing, and policing after arriving in Britain.',
     country: 'UK',
@@ -47,10 +47,10 @@ export const timeline: TimelineEvent[] = [
   },
   {
     id: 'h-5',
-    year: 'Post-Slavery',
-    title: 'Discrimination After Slavery',
+    year: 'Post-Abolition',
+    title: 'Racial Inequality After Slavery',
     description:
-      'Even after slavery officially ended, Black communities continued to experience discrimination through segregation, colonial rule, racial surveillance, unequal laws, and discriminatory policing practices. After slavery officially ended in 1865 in the United States, Black Americans continued to experience segregation, racial violence, discriminatory laws, and over-policing through systems such as Jim Crow laws.',
+      'Even after slavery was abolished, its racial inequality still continued through segregation, discriminatory laws, and racial surveillance. After slavery officially ended in 1865 in the United States, Black Americans continued to experience segregation, racial violence, and discriminatory laws such as Jim Crow laws. Reinforcing negative stereotypes about Black communities has led to high rates of mass incarceration and everlasting racial inequalities throughout the world.',
     country: 'USA',
     tags: ['Segregation', 'Jim Crow'],
   },
@@ -59,7 +59,7 @@ export const timeline: TimelineEvent[] = [
     year: 'Ongoing',
     title: 'Protest Movements and Resistance',
     description:
-      'Black communities have historically protested against racism, police brutality, segregation, and inequality. Many Black protesters fighting for equality have experienced violence, arrests, intimidation, and surveillance from police forces. The deaths of George Floyd, Breonna Taylor, and many other Black victims of police violence sparked global protests against systemic racism and police brutality.',
+      'Even though the system has always been against them, Black communities have resisted racism through protests and social movements to bring global attention to racial discrimination. Also, communities with high incarceration rates have a higher chance of poverty, limited opportunities, and mistrust of government officials.',
     country: 'Global',
     tags: ['Protest', 'Resistance'],
   },
