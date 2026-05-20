@@ -6,14 +6,14 @@ export const familiesHero = {
 }
 
 export const familiesIntro =
-  'Mass incarceration is the high rate of imprisonment of people, especially marginalized groups. Black communities are disproportionately affected because of racial profiling, over-policing, and unequal sentencing. According to the NAACP Criminal Justice Fact Sheet, Black Americans are incarcerated at significantly higher rates than white Americans and are portrayed as criminals even for minor actions. This form of racial inequality in incarceration systems is also shown in the United Kingdom and Brazil. Also, communities with high incarceration rates, regardless of the country, have a higher chance of poverty, limited opportunities, and mistrust of government officials. Even though the system has always been against them, Black communities have resisted racism through protests and social movements to bring global attention to racial discrimination.'
+  'Mass incarceration is the high rate of imprisonment of people, especially marginalized groups. Black communities are disproportionately affected because of racial profiling, over-policing, and unequal sentencing. Black Americans are incarcerated at significantly higher rates than white Americans and are portrayed as criminals even for minor actions. This form of racial inequality in incarceration systems is also shown in the United Kingdom and Brazil. Also, communities with high incarceration rates, regardless of the country, have a higher chance of poverty, limited opportunities, and are hesitant to trust government officials. Even though the system has always been against them, Black communities have resisted racism through protests and social movements to bring global attention to racial discrimination.'
 
 export const impactTypes: FamilyImpactType[] = [
   {
     id: 'fi-1',
     title: 'Family Separation',
     description:
-      'Mass incarceration and police killings tear families apart. Black families are disproportionately affected because of racial profiling, over-policing, and unequal sentencing. According to the NAACP Criminal Justice Fact Sheet, Black Americans are incarcerated at significantly higher rates than white Americans.',
+      'Mass incarceration and police killings tear families apart. Black families are disproportionately affected because of racial profiling, over-policing, and unequal sentencing. Black Americans are incarcerated at significantly higher rates than white Americans.',
     statistics: [
       {
         id: 'fi1-s1',
@@ -52,7 +52,7 @@ export const impactTypes: FamilyImpactType[] = [
     id: 'fi-4',
     title: 'Restriction on Employment and Education After Release',
     description:
-      'Incarceration creates lasting restrictions on employment, housing, and education for those who are released. Communities with high incarceration rates have a higher chance of poverty, limited opportunities, and mistrust of government officials. These restrictions affect not only the individual but their entire family.',
+      'Incarceration creates lasting restrictions on employment, housing, and education for those who are released. Communities with high incarceration rates have a higher chance of poverty, limited opportunities, and are hesitant to trust government officials. These restrictions affect not only the individual but their entire family.',
     statistics: [
       {
         id: 'fi4-s1',
@@ -69,7 +69,7 @@ export const impactTypes: FamilyImpactType[] = [
 export const intergenerational = {
   title: 'Intergenerational Trauma',
   description:
-    'As a result of repeated exposure to racism and violence, PubMed: Racial Trauma: Theory, Research, and Healing explains that this can create long-term psychological harm that affects both individuals and future generations. Communities with high incarceration rates, regardless of the country, have a higher chance of poverty, limited opportunities, and mistrust of government officials. These effects often continue across generations and contribute to long-term instability within Black communities.',
+    'Repeated exposure to racism, discrimination, incarceration, and violence can contribute to long-term psychological harm within Black communities that affects both individuals and future generations. Communities with high incarceration rates, regardless of the country, have a higher chance of poverty, limited opportunities, and are hesitant to trust government officials. These effects often continue across generations and contribute to long-term instability within Black communities.',
   mechanisms: [
     'Family separation',
     'Financial hardship',
@@ -83,7 +83,7 @@ export const intergenerational = {
 export const familiesQuote: Quote = {
   text: '"The book explains how Black communities have historically resisted oppression while also discussing how policing and incarceration systems often dehumanize marginalized communities and create long-lasting emotional and psychological harm."',
   attribution: 'Becoming Abolitionists',
-  role: 'Chapter 7: Dehumanization, Disability, and Reform',
+  role: 'Kaba, Mariame, and Andrea J. Ritchie. Chapter 7: Dehumanization, Disability, and Reform',
 }
 
 export const familiesStats: Statistic[] = [

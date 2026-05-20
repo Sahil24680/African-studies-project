@@ -8,36 +8,36 @@ export const policeBrazilContent: CountryPageContent = {
     subheadline: 'João Pedro and Police Violence in Brazilian Favelas',
   },
   intro:
-    'One of the most significant examples of police violence in Brazil involved João Pedro Matos Pinto, a 14-year-old Black boy who was killed during a police raid in Rio de Janeiro in 2020. João Pedro was inside his home playing with friends when police officers entered the neighborhood during an operation and opened fire. His death caused outrage throughout Brazil and drew international attention to police violence against Black youth. The significance of João Pedro\'s death was that it highlighted how dangerous police operations in poor Black neighborhoods and favelas have become. Many Brazilians viewed the incident as an example of how Black communities are treated as targets rather than citizens deserving protection and safety. Human rights organizations argued that the case reflected broader patterns of racial inequality and excessive police violence in Brazil.',
+    'In Brazil, racial inequality is closely connected to the legacy of slavery and the unequal conditions that followed abolition. Brazil received more enslaved African people than any other country in America, and was also the last country in the Western Hemisphere to officially abolish slavery in 1888. However, after slavery ended, enslaved people were not given any meaningful support, such as land, education, or economic opportunities. This led many to remain trapped in poverty and pushed into low-income communities, shaping patterns of inequality that still exist today. This effect can be seen in many Brazilian cities, especially in favelas, where large Afro-Brazilian populations live. These communities often lack proper healthcare, sanitation, transportation, and educational resources. They also experience heavy police presence and constant security operations. This shows how little support these neighborhoods get compared to how heavily they are policed. Brazil also has one of the deadliest police systems in the world. Human rights reports consistently show that most people killed during police operations are Black, with some states reporting that over 80% to 90% of victims are Afro-Brazilian. Young Black men are targeted the most, showing how racial inequality and police brutality are deeply connected. Unlike many other countries, police operations in Brazil are often highly militarized. Raids commonly involve armored vehicles, helicopters, and heavily armed officers entering crowded residential areas. Instead of focusing only on specific suspects, these operations often impact entire communities and treat low-income communities as dangerous war zones instead of neighborhoods where families live. Human rights organizations have repeatedly criticized these tactics due to the harm they cause to civilians. One widely known example is the killing of João Pedro Matos Pinto in 2020. He was shot during a police raid in a poor community in Rio de Janeiro, and his death received both national and international attention. Many people saw the case as part of a larger pattern of racialized police violence against Afro-Brazilian communities, especially against young Black people. Racial inequality in Brazil also appears in education, employment, and income levels. Afro-Brazilians are still more likely to live in poverty and less likely to have access to higher education and professional jobs. Even with these challenges, Afro-Brazilian communities and activists continue fighting against racial inequality through protests, cultural movements, and community organizing.',
   statistics: [
     {
       id: 'br-1',
       figure: '300+',
       figureNumeric: 300,
       suffix: '+',
-      label: 'Slavery lasted there for more than 300 years before officially ending in 1888',
+      label: 'Years Brazil practiced slavery before officially ending in 1888',
       source: 'Human Rights Watch, 2020',
     },
     {
       id: 'br-2',
       figure: '1888',
       figureNumeric: 1888,
-      label: 'Brazil imported more enslaved Africans than any other country in the Americas, and slavery lasted there for more than 300 years before officially ending in 1888',
+      label: 'Brazil was the last country in the Western Hemisphere to officially abolish slavery',
       source: 'Human Rights Watch, 2020',
     },
     {
       id: 'br-3',
-      figure: 'Targeted',
+      figure: '80-90%',
       figureNumeric: 0,
-      label: 'Black Brazilians are disproportionately targeted during police operations, especially in low-income neighborhoods and favelas',
+      label: 'In some states, over 80% to 90% of people killed in police operations are Afro-Brazilian',
       source: 'Human Rights Watch: UN Experts Spotlight Devastating Police Brutality in Brazil',
     },
     {
       id: 'br-4',
-      figure: 'Fear',
+      figure: 'Targeted',
       figureNumeric: 0,
-      label: 'Police violence in Brazil disproportionately affects Black communities and contributes to fear, instability, and distrust toward law enforcement',
-      source: 'Vigils on Two Continents: A Comparative Analysis of Police Brutality in Brazil and the United States',
+      label: 'Black Brazilians are disproportionately targeted during police operations, especially in low-income neighborhoods and favelas',
+      source: 'Human Rights Watch: UN Experts Spotlight Devastating Police Brutality in Brazil',
     },
   ],
   keyEvents: [
@@ -47,9 +47,9 @@ export const policeBrazilContent: CountryPageContent = {
       name: 'Killing of João Pedro Matos Pinto',
       location: 'Rio de Janeiro, Brazil',
       description:
-        'João Pedro Matos Pinto, a 14-year-old Black boy, was killed during a police raid in Rio de Janeiro in 2020. João Pedro was inside his home playing with friends when police officers entered the neighborhood during an operation and opened fire.',
+        'João Pedro Matos Pinto was shot during a police raid in a poor community in Rio de Janeiro. His death received both national and international attention.',
       significance:
-        "João Pedro's death highlighted how dangerous police operations in poor Black neighborhoods and favelas have become. Many Brazilians viewed the incident as an example of how Black communities are treated as targets rather than citizens deserving protection and safety. Human rights organizations argued that the case reflected broader patterns of racial inequality and excessive police violence in Brazil.",
+        'Many people saw the case as part of a larger pattern of racialized police violence against Afro-Brazilian communities, especially against young Black people.',
       country: 'Brazil',
     },
   ],
@@ -57,22 +57,22 @@ export const policeBrazilContent: CountryPageContent = {
     {
       title: 'Legacy of Slavery',
       description:
-        'Brazil imported more enslaved Africans than any other country in the Americas, and slavery lasted there for more than 300 years before officially ending in 1888. Even after slavery ended, Black Brazilians continued to experience poverty, racial discrimination, and exclusion from economic and educational opportunities.',
+        'Brazil received more enslaved African people than any other country in America, and was the last country in the Western Hemisphere to officially abolish slavery in 1888. After slavery ended, enslaved people were not given any meaningful support, such as land, education, or economic opportunities. This led many to remain trapped in poverty and pushed into low-income communities, shaping patterns of inequality that still exist today.',
     },
     {
-      title: 'Targeting of Black Communities and Favelas',
+      title: 'Militarized Policing and Targeting of Favelas',
       description:
-        'According to Human Rights Watch: UN Experts Spotlight Devastating Police Brutality in Brazil, Black Brazilians are disproportionately targeted during police operations, especially in low-income neighborhoods and favelas. Research from Vigils on Two Continents: A Comparative Analysis of Police Brutality in Brazil and the United States explains that police violence in Brazil disproportionately affects Black communities and contributes to fear, instability, and distrust toward law enforcement.',
+        'Human rights reports consistently show that most people killed during police operations are Black, with some states reporting that over 80% to 90% of victims are Afro-Brazilian. Police operations in Brazil are often highly militarized, with raids commonly involving armored vehicles, helicopters, and heavily armed officers entering crowded residential areas. Human rights organizations have repeatedly criticized these tactics due to the harm they cause to civilians.',
     },
     {
-      title: 'Mental Health Effects on Families and Children',
+      title: 'Mental Health Effects on Families and Communities',
       description:
-        'Mass incarceration and aggressive policing create devastating effects on Black families in Brazil, including economic hardship, family separation, emotional trauma, fear of police raids, and housing instability. Children growing up in heavily policed neighborhoods may constantly fear violence and develop emotional trauma from repeated exposure to police raids and shootings. Repeated exposure to violence can also contribute to PTSD, anxiety, depression, chronic stress, and intergenerational trauma within Black communities.',
+        'Mass incarceration and aggressive policing create devastating effects on Black families in Brazil, including economic hardship, family separation, emotional trauma, fear of police raids, and housing instability. Repeated exposure to violence can also contribute to PTSD, anxiety, depression, chronic stress, and intergenerational trauma within Black communities.',
     },
   ],
   quote: {
-    text: '"According to Human Rights Watch, Black Brazilians are disproportionately targeted during police operations, especially in low-income neighborhoods and favelas."',
+    text: '"Human rights reports consistently show that most people killed during police operations are Black, with some states reporting that over 80% to 90% of victims are Afro-Brazilian."',
     attribution: 'Human Rights Watch',
-    role: 'UN Experts Spotlight Devastating Police Brutality in Brazil, 2020',
+    role: 'UN Experts Spotlight Devastating Police Brutality in Brazil',
   },
 }

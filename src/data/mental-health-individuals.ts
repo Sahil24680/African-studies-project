@@ -6,23 +6,16 @@ export const individualsHero = {
 }
 
 export const individualsIntro =
-  'Repeated exposure to racism, discrimination, incarceration, and violence can contribute to long-term psychological harm within Black communities. According to "A Growing Dilemma: How Police Brutality Affects Mental Health in Black Communities," police brutality can contribute to PTSD, anxiety, depression, fear during police encounters, chronic stress, and intergenerational trauma. Police violence impacts more than the individuals who are directly involved. Their families and communities are affected emotionally and socially because losing someone or witnessing their incarceration can cause grief, fear, and mistrust towards law enforcement and the justice system.'
+  'Repeated exposure to racism, discrimination, incarceration, and violence can contribute to long-term psychological harm within Black communities. Police violence impacts more than the individuals who are directly involved. Their families and communities are affected emotionally and socially because losing someone or witnessing their incarceration can cause grief, fear, and mistrust towards law enforcement and the justice system.'
 
 export const conditions: ConditionDetail[] = [
   {
     id: 'c-1',
     condition: 'Post-Traumatic Stress Disorder (PTSD)',
     definition:
-      'PTSD develops following exposure to traumatic events. For Black individuals, police encounters themselves, even without physical harm, can be traumatic enough to trigger PTSD symptoms. Racial trauma developed through exposure to racism and discrimination increases stress levels and can psychologically traumatize Black individuals and their families.',
-    prevalence:
-      'Repeated exposure to racism, discrimination, incarceration, and violence can contribute to long-term psychological harm. Black communities experience PTSD at significantly higher rates, with police violence identified as a key contributing factor.',
-    symptoms: [
-      'Flashbacks and intrusive memories of violent encounters',
-      'Hypervigilance, constant alertness to threat, especially near police',
-      'Avoidance of situations that might involve police contact',
-      'Sleep disturbances and nightmares',
-      'Emotional numbness and detachment',
-    ],
+      'Racial trauma developed through exposure to racism and discrimination increases stress levels and can psychologically traumatize Black individuals and their families.',
+    prevalence: '',
+    symptoms: [],
     statistics: [],
   },
   {
@@ -30,15 +23,8 @@ export const conditions: ConditionDetail[] = [
     condition: 'Anxiety',
     definition:
       'Chronic exposure to the threat of police violence produces persistent anxiety. Fear during police encounters is a documented psychological effect of repeated exposure to police brutality within Black communities.',
-    prevalence:
-      'Black individuals report significantly higher rates of anxiety related to police contact. Police violence impacts more than the individuals who are directly involved, their families and communities are affected emotionally and socially.',
-    symptoms: [
-      'Fear during police encounters',
-      'Persistent worry about the safety of family members',
-      'Physical symptoms: elevated heart rate, difficulty breathing',
-      'Difficulty concentrating due to constant threat monitoring',
-      'Social withdrawal to reduce perceived risk',
-    ],
+    prevalence: '',
+    symptoms: [],
     statistics: [
       {
         id: 'c2-s1',
@@ -54,16 +40,9 @@ export const conditions: ConditionDetail[] = [
     id: 'c-3',
     condition: 'Depression',
     definition:
-      'Repeated exposure to violence, loss, and systemic injustice is strongly associated with clinical depression. Police brutality can contribute to depression, especially in communities that experience this violence as ongoing and inescapable.',
-    prevalence:
-      'Research links community-level police violence to increased rates of depression in Black communities. Losing someone or witnessing their incarceration can cause grief, fear, and mistrust towards law enforcement and the justice system.',
-    symptoms: [
-      'Persistent sadness and hopelessness following high-profile killings',
-      'Grief from losing someone to police violence or incarceration',
-      'Loss of interest in community engagement and civic life',
-      'Feelings of powerlessness and futility',
-      'Mistrust towards law enforcement and the justice system',
-    ],
+      'Losing someone or witnessing their incarceration can cause grief, fear, and mistrust towards law enforcement and the justice system, contributing to depression within Black communities.',
+    prevalence: '',
+    symptoms: [],
     statistics: [
       {
         id: 'c3-s1',
@@ -78,16 +57,9 @@ export const conditions: ConditionDetail[] = [
     id: 'c-4',
     condition: 'Chronic Stress and Intergenerational Trauma',
     definition:
-      'Racial trauma develops through repeated exposure to racism and violence over time. As a result, repeated exposure to racism and violence can create long-term psychological harm that affects both individuals and future generations.',
-    prevalence:
-      'Communities with high incarceration rates have a higher chance of poverty, limited opportunities, and mistrust of government officials. This chronic stress contributes to intergenerational trauma within Black communities.',
-    symptoms: [
-      'Chronic stress from constant exposure to racial violence',
-      'Fear of police raids and encounters',
-      'Intergenerational transmission of trauma to children',
-      'Mistrust of government officials and institutions',
-      'Long-term psychological harm affecting future generations',
-    ],
+      'Repeated exposure to racism, discrimination, incarceration, and violence can contribute to long-term psychological harm within Black communities that affects both individuals and future generations.',
+    prevalence: '',
+    symptoms: [],
     statistics: [
       {
         id: 'c4-s1',
@@ -105,27 +77,27 @@ export const researchHighlights: { title: string; finding: string; source: strin
   {
     title: 'Police Brutality and Mental Health in Black Communities',
     finding:
-      'According to "A Growing Dilemma: How Police Brutality Affects Mental Health in Black Communities," police brutality can contribute to PTSD, anxiety, depression, fear during police encounters, chronic stress, and intergenerational trauma. Police violence impacts more than the individuals who are directly involved, their families and communities are affected emotionally and socially because losing someone or witnessing their incarceration can cause grief, fear, and mistrust towards law enforcement and the justice system.',
-    source: 'A Growing Dilemma: How Police Brutality Affects Mental Health in Black Communities',
+      'Repeated exposure to racism, discrimination, incarceration, and violence can contribute to long-term psychological harm within Black communities. Police violence impacts more than the individuals who are directly involved. Their families and communities are affected emotionally and socially because losing someone or witnessing their incarceration can cause grief, fear, and mistrust towards law enforcement and the justice system.',
+    source: 'Young-Drake, Reginald, et al. A Growing Dilemma: How Police Brutality Affects Mental Health in Black Communities. Thurgood Marshall Civil Rights Center at Howard University School of Law, 2021.',
   },
   {
     title: 'Racial Trauma: Theory, Research, and Healing',
     finding:
-      'Repeated exposure to racism, discrimination, incarceration, and violence can contribute to long-term psychological harm within Black communities. As a result, PubMed: Racial Trauma: Theory, Research, and Healing explains that repeated exposure to racism and violence can create long-term psychological harm that affects both individuals and future generations.',
-    source: 'PubMed: Racial Trauma: Theory, Research, and Healing',
+      'Repeated exposure to racism, discrimination, incarceration, and violence can contribute to long-term psychological harm within Black communities that affects both individuals and future generations.',
+    source: 'Carter, Robert T., et al. Racial Trauma: Theory, Research, and Healing. American Psychologist, vol. 74, no. 1, 2019.',
   },
   {
     title: 'Fatal Police Violence by Race and State in the USA',
     finding:
       'Between 1980 and 2018, Black Americans were about 3.5 times more likely to be killed by police than white Americans and police violence caused more than 30,000 deaths during that period.',
-    source: 'The Lancet: Fatal Police Violence by Race and State in the USA, 2021',
+    source: 'Feldman, Justin M., et al. Fatal Police Violence by Race and State in the USA, 1980 to 2019. The Lancet, vol. 398, no. 10307, 2021.',
   },
 ]
 
 export const individualsQuote: Quote = {
   text: '"Repeated exposure to racism, discrimination, incarceration, and violence can contribute to long-term psychological harm within Black communities."',
   attribution: 'A Growing Dilemma: How Police Brutality Affects Mental Health in Black Communities',
-  role: 'Referenced in the context of police violence and mental health',
+  role: 'Young-Drake, Reginald, et al. Thurgood Marshall Civil Rights Center, 2021',
 }
 
 export const individualsStats: Statistic[] = [

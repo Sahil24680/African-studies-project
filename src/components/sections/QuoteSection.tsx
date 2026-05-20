@@ -29,7 +29,7 @@ export default function QuoteSection({ quote, accentColor = 'accent' }: Props) {
           />
           <AnimatedContent delay={0.3} className="mt-8">
             <p className="font-mono text-sm text-ink-faint">
-              — {quote.attribution}
+              {quote.attribution}
               {quote.role && <span className="block text-xs mt-1 opacity-70">{quote.role}</span>}
             </p>
           </AnimatedContent>

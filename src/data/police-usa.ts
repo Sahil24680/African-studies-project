@@ -8,7 +8,7 @@ export const policeUsaContent: CountryPageContent = {
     subheadline: 'George Floyd and Police Violence in America',
   },
   intro:
-    'One of the most significant examples of police violence in the United States was the killing of George Floyd in Minneapolis, Minnesota in 2020. Floyd died after police officer Derek Chauvin, a white male, knelt on his neck for over nine minutes while Floyd repeated "I can\'t breathe." Video footage of the incident spread rapidly across social media and news stations around the world, leading to protests against police brutality and systemic racism throughout the US and multiple countries. Many people see Floyd\'s death as evidence of how Black individuals are treated violently by law enforcement. They are about 3.5 times more likely to be killed by police than white Americans, a symbol of racial violence, and Floyd\'s death also strengthened the Black Lives Matter movement and increased demands for police reform and racial justice. In addition, police violence in the United States is connected to slavery and racial segregation. During slavery, slave patrols were used to monitor enslaved Africans, especially to prevent them from escaping. Even after slavery officially ended in 1865, Black Americans continued to experience segregation, racial violence, and discriminatory laws such as Jim Crow laws. The article states that between 1980 and 2018, Black Americans were about 3.5 times more likely to be killed by police than white Americans and police violence caused more than 30,000 deaths during that period. Mass incarceration has also had devastating effects on Black communities in the United States. Policies such as the War on Drugs disproportionately targeted Black neighborhoods through aggressive policing and harsher sentencing laws. According to the NAACP Criminal Justice Fact Sheet, Black Americans make up approximately 13% of the US population but around 38% of the prison population. As a result, PubMed: Racial Trauma: Theory, Research, and Healing explains that repeated exposure to racism and violence can create long-term psychological harm that affects both individuals and future generations.',
+    'In the United States, racial inequality embedded in policing and the justice system stems from the country\'s history of slavery and its long-lasting effects. During slavery, policing in the South included slave patrols, which were created to monitor slaves and suppress resistance. After the abolition of slavery in 1865, these systems evolved into new legal and social structures that continued to restrict their rights and freedom. In the 1980s, the War on Drugs significantly increased policing and incarceration rates, specifically in Black communities. Even though various racial groups were using drugs, laws were enforced that targeted Black neighborhoods through higher arrest rates and harsher sentencing laws. As a result, the United States has one of the highest incarceration rates in the world, with Black Americans representing about 13% of the population but roughly one-third of the prison population. They are imprisoned at nearly five times the rate of white Americans, and the rate is even higher in some states, depending on the sentencing structure. In recent years, these structural issues have become more visible due to publicized police violence cases. The killing of George Floyd in 2020 happened during an arrest in Minneapolis, where a White police officer knelt on his neck for over nine minutes while he was handcuffed and repeated that he could not breathe. Later in the same year, Breonna Taylor, a 26-year-old Black emergency medical worker, was killed inside her home during a police raid. Police were authorized to enter her house without announcing their presence after midnight, which led to a fatal shooting, raising major concerns about warrant practices and accountability in policing. These cases showed the ongoing pattern of how race, geography, and policing interact with one another, leading to unjust treatment for Black communities. Originally founded in 2013, the Black Lives Matter movement became one of the largest social movements after 2020, with protests expanding across the nation and in multiple countries worldwide. Protesters called for reforms to the justice system, such as increased police accountability, greater law enforcement transparency, and the reallocation of public funding toward education, healthcare, and community services. These demands are significant because mass incarceration and losing loved ones to systemic issues contribute to economic instability, PTSD, family separation, and this trauma is passed down to future generations.',
   statistics: [
     {
       id: 'usa-1',
@@ -16,7 +16,7 @@ export const policeUsaContent: CountryPageContent = {
       figureNumeric: 3.5,
       suffix: 'x',
       label: 'Black Americans were about 3.5 times more likely to be killed by police than white Americans between 1980 and 2018',
-      source: 'The Lancet: Fatal Police Violence by Race and State in the USA, 2021',
+      source: 'The Lancet, 2021',
     },
     {
       id: 'usa-2',
@@ -24,7 +24,7 @@ export const policeUsaContent: CountryPageContent = {
       figureNumeric: 30000,
       suffix: '+',
       label: 'Police violence caused more than 30,000 deaths from 1980 to 2018',
-      source: 'The Lancet: Fatal Police Violence by Race and State in the USA, 2021',
+      source: 'The Lancet, 2021',
     },
     {
       id: 'usa-3',
@@ -32,6 +32,14 @@ export const policeUsaContent: CountryPageContent = {
       figureNumeric: 38,
       suffix: '%',
       label: 'Black Americans make up approximately 13% of the US population but around 38% of the prison population',
+      source: 'NAACP Criminal Justice Fact Sheet',
+    },
+    {
+      id: 'usa-4',
+      figure: '5x',
+      figureNumeric: 5,
+      suffix: 'x',
+      label: 'Black Americans are imprisoned at nearly five times the rate of white Americans',
       source: 'NAACP Criminal Justice Fact Sheet',
     },
   ],
@@ -42,32 +50,43 @@ export const policeUsaContent: CountryPageContent = {
       name: 'Murder of George Floyd',
       location: 'Minneapolis, Minnesota',
       description:
-        'George Floyd died after police officer Derek Chauvin, a white male, knelt on his neck for over nine minutes while Floyd repeated "I can\'t breathe." Video footage of the incident spread rapidly across social media and news stations around the world, leading to protests against police brutality and systemic racism throughout the US and multiple countries.',
+        'The killing of George Floyd in 2020 happened during an arrest in Minneapolis, where a White police officer knelt on his neck for over nine minutes while he was handcuffed and repeated that he could not breathe. The video of the incident spread rapidly worldwide.',
       significance:
-        "Many people see Floyd's death as evidence of how Black individuals are treated violently by law enforcement. They are about 3.5 times more likely to be killed by police than white Americans. Floyd's death also strengthened the Black Lives Matter movement and increased demands for police reform and racial justice.",
+        'These cases showed the ongoing pattern of how race, geography, and policing interact with one another, leading to unjust treatment for Black communities.',
+      country: 'USA',
+    },
+    {
+      id: 'usa-e2',
+      year: '2020',
+      name: 'Killing of Breonna Taylor',
+      location: 'Louisville, Kentucky',
+      description:
+        'Breonna Taylor, a 26-year-old Black emergency medical worker, was killed inside her home during a police raid. Police were authorized to enter her house without announcing their presence after midnight, which led to a fatal shooting.',
+      significance:
+        'The case raised major concerns about warrant practices and accountability in policing, highlighting how routine enforcement actions can have fatal consequences.',
       country: 'USA',
     },
   ],
   systemicPatterns: [
     {
-      title: 'Slave Patrols and Jim Crow Laws',
+      title: 'Slave Patrols and Segregation Laws',
       description:
-        'Police violence in the United States is connected to slavery and racial segregation. During slavery, slave patrols were used to monitor enslaved Africans, especially to prevent them from escaping. Even after slavery officially ended in 1865, Black Americans continued to experience segregation, racial violence, and discriminatory laws such as Jim Crow laws.',
+        'During slavery, policing in the South included slave patrols, which were created to monitor slaves and suppress resistance. After the abolition of slavery in 1865, these systems evolved into new legal and social structures such as Black Codes, segregation laws, and racially targeted enforcement practices that continued to restrict Black rights and freedom.',
     },
     {
       title: 'War on Drugs and Mass Incarceration',
       description:
-        'Policies such as the War on Drugs disproportionately targeted Black neighborhoods through aggressive policing and harsher sentencing laws. According to the NAACP Criminal Justice Fact Sheet, Black Americans make up approximately 13% of the US population but around 38% of the prison population.',
+        'In the 1980s, the War on Drugs significantly increased policing and incarceration rates, specifically in Black communities. Even though various racial groups were using drugs, laws were enforced that targeted Black neighborhoods through higher arrest rates and harsher sentencing laws. Black Americans represent about 13% of the population but roughly one-third of the prison population, and are imprisoned at nearly five times the rate of white Americans.',
     },
     {
       title: 'Long-Term Psychological Harm',
       description:
-        'As a result of mass incarceration and police violence, PubMed: Racial Trauma: Theory, Research, and Healing explains that repeated exposure to racism and violence can create long-term psychological harm that affects both individuals and future generations.',
+        'Mass incarceration and losing loved ones to systemic issues contribute to economic instability, PTSD, family separation, and this trauma is passed down to future generations. Repeated exposure to racism and violence can create long-term psychological harm that affects both individuals and future generations.',
     },
   ],
   quote: {
-    text: '"As a result, PubMed: Racial Trauma: Theory, Research, and Healing explains that repeated exposure to racism and violence can create long-term psychological harm that affects both individuals and future generations."',
-    attribution: 'PubMed: Racial Trauma: Theory, Research, and Healing',
+    text: '"Mass incarceration and losing loved ones to systemic issues contribute to economic instability, PTSD, family separation, and this trauma is passed down to future generations."',
+    attribution: 'United States context',
     role: 'Referenced in the context of US police violence and mass incarceration',
   },
 }

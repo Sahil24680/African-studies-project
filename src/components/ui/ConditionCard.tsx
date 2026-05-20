@@ -30,17 +30,19 @@ export default function ConditionCard({ condition }: Props) {
         </div>
       )}
 
-      <div>
-        <p className="text-xs font-mono uppercase tracking-widest text-ink-faint mb-3">Key Symptoms</p>
-        <ul className="space-y-1.5">
-          {condition.symptoms.map((s, i) => (
-            <li key={i} className="text-sm text-ink-dim flex gap-2">
-              <span className="text-violet mt-1 flex-shrink-0">—</span>
-              {s}
-            </li>
-          ))}
-        </ul>
-      </div>
+      {condition.symptoms.length > 0 && (
+        <div>
+          <p className="text-xs font-mono uppercase tracking-widest text-ink-faint mb-3">Key Effects</p>
+          <ul className="space-y-1.5">
+            {condition.symptoms.map((s, i) => (
+              <li key={i} className="text-sm text-ink-dim flex gap-2">
+                <span className="text-violet mt-1 flex-shrink-0">•</span>
+                {s}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </SpotlightCard>
   )
 }
