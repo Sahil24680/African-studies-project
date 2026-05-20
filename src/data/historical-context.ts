@@ -23,7 +23,7 @@ export const timeline: TimelineEvent[] = [
     year: 'During Slavery',
     title: 'Slave Patrols in the United States',
     description:
-      'During slavery, policing in the South included slave patrols, which were created to monitor slaves and suppress resistance. After the abolition of slavery in 1865, these systems evolved into new legal and social structures that continued to restrict Black rights and freedom.',
+      'During slavery, policing in the South included slave patrols, which were created to monitor slaves and suppress resistance. After the abolition of slavery in 1865, these systems evolved into new legal and social structures that continued to restrict their rights and freedom.',
     country: 'USA',
     tags: ['Slave Patrols', 'Policing'],
   },
@@ -32,7 +32,7 @@ export const timeline: TimelineEvent[] = [
     year: '300+ Years',
     title: 'Brazilian Slavery',
     description:
-      'Brazil received more enslaved African people than any other country in the Americas, and was the last country in the Western Hemisphere to officially abolish slavery in 1888. After slavery ended, enslaved people were not given any meaningful support such as land, education, or economic opportunities, leaving many trapped in poverty.',
+      'Brazil received more enslaved African people than any other country in America, and was also the last country in the Western Hemisphere to officially abolish slavery in 1888. However, after slavery ended, enslaved people were not given any meaningful support, such as land, education, or economic opportunities. This led many to remain trapped in poverty and pushed into low-income communities, shaping patterns of inequality that still exist today.',
     country: 'Brazil',
     tags: ['Slavery', 'Brazil'],
   },
@@ -41,7 +41,7 @@ export const timeline: TimelineEvent[] = [
     year: 'Colonial Era',
     title: "Britain's Role in Slavery and Colonialism",
     description:
-      "Britain's history of colonialism and involvement in the transatlantic slave trade created racial hierarchies that continued to influence institutions long after abolition. As migration from former colonies increased after World War II, Black communities in Britain faced discrimination in housing, employment, and policing.",
+      'In the United Kingdom, racial inequality within policing is linked to the country\'s history of colonialism and involvement in the transatlantic slave trade, which created racial hierarchies in the West. As migration increased after World War II, Black communities in Britain faced discrimination in housing, employment, and community services, as well as heightened policing in urban areas.',
     country: 'UK',
     tags: ['Colonialism', 'UK'],
   },
@@ -66,7 +66,7 @@ export const timeline: TimelineEvent[] = [
 ]
 
 export const historicalQuote: Quote = {
-  text: '"The book explains how Black communities have historically resisted oppression while also discussing how policing and incarceration systems often dehumanize marginalized communities and create long-lasting emotional and psychological harm."',
-  attribution: 'Becoming Abolitionists',
-  role: 'Kaba, Mariame, and Andrea J. Ritchie. Chapter 7: Dehumanization, Disability, and Reform',
+  text: '"Even after slavery was abolished, racial inequality continued through segregation, discriminatory laws, and racial surveillance. Reinforcing negative stereotypes about Black communities has led to high rates of mass incarceration and lasting racial inequalities throughout the world."',
+  attribution: 'Historical Background',
+  role: 'Police Violence and Mental Health in the Global Black Experience',
 }

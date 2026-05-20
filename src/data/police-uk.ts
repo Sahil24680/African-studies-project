@@ -5,10 +5,10 @@ export const policeUkContent: CountryPageContent = {
   accentClass: 'uk',
   hero: {
     headline: 'Police Violence in the United Kingdom',
-    subheadline: 'Mark Duggan and Institutional Racism in Britain',
+    subheadline: 'Mark Duggan and Racial Inequality in British Policing',
   },
   intro:
-    'In the United Kingdom, racial inequality within policing is linked to the country\'s history of colonialism and involvement in the transatlantic slave trade, which created racial hierarchies in the West. As migration increased after World War II, Black communities in Britain faced discrimination in housing, employment, and community services, as well as heightened policing in urban areas. Even though they make up a small percentage of the population, Black people in the UK are more likely to experience the use of force by police officers, mainly just because of their race. One of the most significant policing practices targeting Black individuals in the UK is stop-and-search. In England and Wales, Black people are more than four times as likely to be stopped and searched compared to white people. In some urban areas, such as parts of London, young Black men are the most frequently targeted group. However, a significant amount of stop-and-search encounters do not lead to arrest or charges, which has raised concerns that this is based on racial profiling and suspicion instead of clear evidence. As a result, Black people are hypervigilant in public even when they have done nothing wrong. Conflict between Black communities and the police became even worse during the Brixton uprisings of 1981. High unemployment, poor housing, and aggressive policing in a mostly Black neighborhood caused many years of frustration and anger over racism and inequality. More recent cases, like the death of Chris Kaba in 2022, caused more debate about police violence in the UK. Police killed him during a car stop in London, which led to protests and discussions about how Black people are often seen as dangerous by police. The case also raised more concerns about racism and unfair treatment in British policing. Beyond policing, racial inequality can also be seen in jobs, education, and housing. Black people in the UK are still more likely to face unfair treatment in these areas compared to white people. Because of this, community groups and anti-racist movements in the UK continue fighting against racial inequality through activism, education, and efforts to change unfair policies.',
+    'In the United Kingdom, racial inequality within policing is linked to the country\'s history of colonialism and involvement in the transatlantic slave trade, which created racial hierarchies in the West. As migration increased after World War II, Black communities in Britain faced discrimination in housing, employment, and community services, as well as heightened policing in urban areas. Even though they make up a small percentage of the population, Black people in the UK are more likely to experience the use of force by police officers, mainly just because of their race. One of the most significant policing practices targeting Black individuals in the UK is stop-and-search. In England and Wales, Black people are more than four times as likely to be stopped and searched compared to white people. In some urban areas, such as parts of London, young Black men are the most frequently targeted group. However, a significant amount of stop-and-search encounters do not lead to arrest or charges, which has raised concerns that this is based on racial profiling and suspicion instead of clear evidence. As a result, Black people are hypervigilant in public even when they have done nothing wrong. Conflict between Black communities and the police became even worse during the Brixton uprisings of 1981. High unemployment, poor housing, and aggressive policing in a mostly Black neighborhood caused many years of frustration and anger over racism and inequality. More recent cases, like the death of Chris Kaba in 2022, caused more debate about police violence in the UK. Police killed him during a car stop in London, which led to protests and discussions about how Black people are often seen as dangerous by police. The case also raised more concerns about racism and unfair treatment in British policing. Beyond policing, racial inequality can also be seen in jobs, education, and housing. Black people in the UK are still more likely to face unfair treatment in these areas compared to white people. These problems are often connected to experiences with heavy policing and discrimination, which can affect people\'s opportunities and trust in the government. Because of this, community groups and anti-racist movements in the UK continue fighting against racial inequality through activism, education, and efforts to change unfair policies.',
   statistics: [
     {
       id: 'uk-1',
@@ -27,17 +27,17 @@ export const policeUkContent: CountryPageContent = {
     },
     {
       id: 'uk-3',
-      figure: 'PTSD',
+      figure: 'Hypervigilant',
       figureNumeric: 0,
-      label: 'Repeated exposure to racism and police violence can also contribute to PTSD, depression, and fear during police encounters',
-      source: 'A Growing Dilemma: How Police Brutality Affects Mental Health in Black Communities',
+      label: 'Black people are hypervigilant in public even when they have done nothing wrong, as a result of stop-and-search practices',
+      source: 'UK Ethnicity Facts and Figures',
     },
     {
       id: 'uk-4',
-      figure: 'Impact',
+      figure: 'Activism',
       figureNumeric: 0,
-      label: 'Families impacted by incarceration often experience financial hardship, emotional stress, family instability, and anxiety and depression',
-      source: 'A Growing Dilemma: How Police Brutality Affects Mental Health in Black Communities',
+      label: 'Community groups and anti-racist movements in the UK continue fighting against racial inequality through activism, education, and efforts to change unfair policies',
+      source: 'UK Ethnicity Facts and Figures',
     },
   ],
   keyEvents: [
@@ -49,7 +49,7 @@ export const policeUkContent: CountryPageContent = {
       description:
         'High unemployment, poor housing, and aggressive policing in a mostly Black neighborhood caused many years of frustration and anger over racism and inequality, leading to the Brixton uprisings of 1981.',
       significance:
-        'Brixton became a turning point that exposed how deeply policing practices were connected to broader social and economic exclusion of Black communities in Britain.',
+        'High unemployment, poor housing, and aggressive policing in a mostly Black neighborhood caused many years of frustration and anger over racism and inequality.',
       country: 'UK',
     },
     {
@@ -60,7 +60,7 @@ export const policeUkContent: CountryPageContent = {
       description:
         'Mark Duggan, a Black British man, was shot and killed by police officers in Tottenham, London. After his death, protests demanding justice quickly spread throughout London and later developed into riots across England.',
       significance:
-        "Mark Duggan's death exposed growing frustration within Black communities regarding racial profiling, discrimination, and aggressive policing practices in Britain. Many Black Britons believed the incident reflected broader issues of institutional racism within the police force.",
+        'After his death, protests demanding justice quickly spread throughout London and later developed into riots across England.',
       country: 'UK',
     },
     {
@@ -71,7 +71,7 @@ export const policeUkContent: CountryPageContent = {
       description:
         'Police killed Chris Kaba during a car stop in London, which led to protests and discussions about how Black people are often seen as dangerous by police.',
       significance:
-        'The case raised more concerns about racism and unfair treatment in British policing and renewed public debate about accountability in the use of force.',
+        'The case raised more concerns about racism and unfair treatment in British policing.',
       country: 'UK',
     },
   ],
@@ -87,9 +87,9 @@ export const policeUkContent: CountryPageContent = {
         "Racial inequality within policing is linked to Britain's history of colonialism and involvement in the transatlantic slave trade, which created racial hierarchies in the West. As migration from former colonies increased after World War II, Black communities in Britain faced discrimination in housing, employment, and community services, as well as heightened policing in urban areas.",
     },
     {
-      title: 'Incarceration and Mental Health Effects',
+      title: 'Racial Inequality Beyond Policing',
       description:
-        'Black communities in Britain are disproportionately affected by incarceration and criminal justice discrimination. Families impacted by incarceration often experience financial hardship, emotional stress, family instability, and anxiety and depression. Repeated exposure to racism and police violence can also contribute to PTSD, depression, and fear during police encounters.',
+        'Beyond policing, racial inequality can also be seen in jobs, education, and housing. Black people in the UK are still more likely to face unfair treatment in these areas compared to white people. These problems are often connected to experiences with heavy policing and discrimination, which can affect people\'s opportunities and trust in the government.',
     },
   ],
   quote: {

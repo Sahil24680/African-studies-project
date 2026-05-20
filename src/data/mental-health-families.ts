@@ -81,9 +81,9 @@ export const intergenerational = {
 }
 
 export const familiesQuote: Quote = {
-  text: '"The book explains how Black communities have historically resisted oppression while also discussing how policing and incarceration systems often dehumanize marginalized communities and create long-lasting emotional and psychological harm."',
-  attribution: 'Becoming Abolitionists',
-  role: 'Kaba, Mariame, and Andrea J. Ritchie. Chapter 7: Dehumanization, Disability, and Reform',
+  text: '"Even though the system has always been against them, Black communities have resisted racism through protests and social movements to bring global attention to racial discrimination."',
+  attribution: 'Mass Incarceration section',
+  role: 'Police Violence and Mental Health in the Global Black Experience',
 }
 
 export const familiesStats: Statistic[] = [

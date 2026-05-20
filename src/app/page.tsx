@@ -19,11 +19,11 @@ const homeSources = citations.filter(c => c.pages?.includes('home'))
 
 const mentalHealthEffects = [
   { label: 'PTSD', desc: 'Racial trauma developed through exposure to racism and discrimination increases stress levels and can psychologically traumatize Black individuals and their families.' },
-  { label: 'Anxiety', desc: 'Chronic exposure to the threat of police violence produces persistent anxiety. Fear during police encounters is a documented psychological effect of repeated exposure to police brutality within Black communities.' },
+  { label: 'Anxiety', desc: 'Repeated exposure to racism, discrimination, incarceration, and violence can contribute to anxiety and fear during police encounters within Black communities.' },
   { label: 'Depression', desc: 'Losing someone or witnessing their incarceration can cause grief, fear, and mistrust towards law enforcement and the justice system.' },
   { label: 'Fear During Police Encounters', desc: 'Police violence impacts more than the individuals who are directly involved. Their families and communities are affected emotionally and socially.' },
   { label: 'Chronic Stress', desc: 'Repeated exposure to racism, discrimination, incarceration, and violence can contribute to long-term psychological harm within Black communities.' },
-  { label: 'Intergenerational Trauma', desc: 'Repeated exposure to racism and violence can create long-term psychological harm that affects both individuals and future generations.' },
+  { label: 'Intergenerational Trauma', desc: 'Repeated exposure to racism, discrimination, incarceration, and violence can contribute to long-term psychological harm within Black communities that affects both individuals and future generations.' },
 ]
 
 export default function HomePage() {
@@ -130,18 +130,18 @@ export default function HomePage() {
             {[
               {
                 label: 'United States', href: '/police-violence-usa', accent: 'usa', flag: '🇺🇸',
-                stat: '3.5×', statLabel: 'Black Americans were about 3.5 times more likely to be killed by police than white Americans',
-                desc: 'During slavery, slave patrols were used to monitor enslaved Africans, especially to prevent them from escaping. Even after slavery officially ended in 1865, Black Americans continued to experience segregation, racial violence, and discriminatory laws such as Jim Crow laws.',
+                stat: '3.5×', statLabel: 'Black Americans were about 3.5 times more likely to be killed by police than white Americans between 1980 and 2018',
+                desc: 'During slavery, policing in the South included slave patrols, which were created to monitor slaves and suppress resistance. After the abolition of slavery in 1865, these systems evolved into new legal and social structures that continued to restrict their rights and freedom.',
               },
               {
                 label: 'United Kingdom', href: '/police-violence-uk', accent: 'uk', flag: '🇬🇧',
-                stat: 'Higher', statLabel: 'Black people in England and Wales are stopped and searched at significantly higher rates than white people',
-                desc: "One major issue in the UK is stop-and-search policing practices. Britain's history of slavery and colonialism also contributed to racial inequality within policing.",
+                stat: '4x', statLabel: 'Black people are more than four times as likely to be stopped and searched compared to white people in England and Wales',
+                desc: "One of the most significant policing practices targeting Black individuals in the UK is stop-and-search. Racial inequality within policing is linked to Britain's history of colonialism and involvement in the transatlantic slave trade.",
               },
               {
                 label: 'Brazil', href: '/police-violence-brazil', accent: 'brazil', flag: '🇧🇷',
                 stat: '300+', statLabel: 'years Brazil practiced slavery before officially ending in 1888',
-                desc: 'Brazil imported more enslaved Africans than any other country in the Americas, and slavery lasted there for more than 300 years before officially ending in 1888.',
+                desc: 'Brazil received more enslaved African people than any other country in America, and was also the last country in the Western Hemisphere to officially abolish slavery in 1888.',
               },
             ].map((item, i) => (
               <AnimatedContent key={item.href} delay={i * 0.1}>

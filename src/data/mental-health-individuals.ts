@@ -22,7 +22,7 @@ export const conditions: ConditionDetail[] = [
     id: 'c-2',
     condition: 'Anxiety',
     definition:
-      'Chronic exposure to the threat of police violence produces persistent anxiety. Fear during police encounters is a documented psychological effect of repeated exposure to police brutality within Black communities.',
+      'Repeated exposure to racism, discrimination, incarceration, and violence can contribute to anxiety and fear during police encounters within Black communities.',
     prevalence: '',
     symptoms: [],
     statistics: [

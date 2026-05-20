@@ -37,15 +37,15 @@ export const globalStats: Statistic[] = [
     figure: '300+',
     figureNumeric: 300,
     suffix: '+',
-    label: 'Brazil imported more enslaved Africans than any other country in the Americas, and slavery lasted there for more than 300 years before officially ending in 1888',
+    label: 'Brazil received more enslaved African people than any other country in America, and was also the last country in the Western Hemisphere to officially abolish slavery in 1888',
     source: 'Human Rights Watch, 2020',
   },
 ]
 
 export const homeQuote: Quote = {
-  text: '"The book explains how Black communities have historically resisted oppression while also discussing how policing and incarceration systems often dehumanize marginalized communities and create long-lasting emotional and psychological harm."',
-  attribution: 'Becoming Abolitionists',
-  role: 'Kaba, Mariame, and Andrea J. Ritchie. Chapter 7: Dehumanization, Disability, and Reform',
+  text: '"Repeated exposure to racism, discrimination, incarceration, and violence can contribute to long-term psychological harm within Black communities."',
+  attribution: 'A Growing Dilemma: How Police Brutality Affects Mental Health in Black Communities',
+  role: 'Young-Drake, Reginald, et al. Thurgood Marshall Civil Rights Center, 2021',
 }
 
 export const overviewText =

@@ -50,7 +50,7 @@ export const policeUsaContent: CountryPageContent = {
       name: 'Murder of George Floyd',
       location: 'Minneapolis, Minnesota',
       description:
-        'The killing of George Floyd in 2020 happened during an arrest in Minneapolis, where a White police officer knelt on his neck for over nine minutes while he was handcuffed and repeated that he could not breathe. The video of the incident spread rapidly worldwide.',
+        'The killing of George Floyd in 2020 happened during an arrest in Minneapolis, where a White police officer knelt on his neck for over nine minutes while he was handcuffed and repeated that he could not breathe.',
       significance:
         'These cases showed the ongoing pattern of how race, geography, and policing interact with one another, leading to unjust treatment for Black communities.',
       country: 'USA',
@@ -63,7 +63,7 @@ export const policeUsaContent: CountryPageContent = {
       description:
         'Breonna Taylor, a 26-year-old Black emergency medical worker, was killed inside her home during a police raid. Police were authorized to enter her house without announcing their presence after midnight, which led to a fatal shooting.',
       significance:
-        'The case raised major concerns about warrant practices and accountability in policing, highlighting how routine enforcement actions can have fatal consequences.',
+        'The case raised major concerns about warrant practices and accountability in policing.',
       country: 'USA',
     },
   ],
@@ -71,7 +71,7 @@ export const policeUsaContent: CountryPageContent = {
     {
       title: 'Slave Patrols and Segregation Laws',
       description:
-        'During slavery, policing in the South included slave patrols, which were created to monitor slaves and suppress resistance. After the abolition of slavery in 1865, these systems evolved into new legal and social structures such as Black Codes, segregation laws, and racially targeted enforcement practices that continued to restrict Black rights and freedom.',
+        'During slavery, policing in the South included slave patrols, which were created to monitor slaves and suppress resistance. After the abolition of slavery in 1865, these systems evolved into new legal and social structures that continued to restrict their rights and freedom.',
     },
     {
       title: 'War on Drugs and Mass Incarceration',
@@ -81,12 +81,12 @@ export const policeUsaContent: CountryPageContent = {
     {
       title: 'Long-Term Psychological Harm',
       description:
-        'Mass incarceration and losing loved ones to systemic issues contribute to economic instability, PTSD, family separation, and this trauma is passed down to future generations. Repeated exposure to racism and violence can create long-term psychological harm that affects both individuals and future generations.',
+        'Mass incarceration and losing loved ones to systemic issues contribute to economic instability, PTSD, family separation, and this trauma is passed down to future generations.',
     },
   ],
   quote: {
     text: '"Mass incarceration and losing loved ones to systemic issues contribute to economic instability, PTSD, family separation, and this trauma is passed down to future generations."',
-    attribution: 'United States context',
-    role: 'Referenced in the context of US police violence and mass incarceration',
+    attribution: 'United States',
+    role: 'Police Violence and Mental Health in the Global Black Experience',
   },
 }
