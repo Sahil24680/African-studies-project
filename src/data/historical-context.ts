@@ -50,7 +50,7 @@ export const timeline: TimelineEvent[] = [
     year: 'Post-Abolition',
     title: 'Racial Inequality After Slavery',
     description:
-      'Even after slavery was abolished, racial inequality continued through segregation, discriminatory laws, and racial surveillance. Black Americans continued to experience racial violence and discriminatory laws such as Jim Crow laws. Reinforcing negative stereotypes about Black communities has led to high rates of mass incarceration and lasting racial inequalities throughout the world.',
+      'Even after slavery was abolished, racial inequality continued through segregation, discriminatory laws, and racial surveillance. Reinforcing negative stereotypes about Black communities has led to high rates of mass incarceration and lasting racial inequalities throughout the world.',
     country: 'USA',
     tags: ['Segregation', 'Jim Crow'],
   },
