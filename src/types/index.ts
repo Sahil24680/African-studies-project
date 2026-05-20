@@ -51,6 +51,7 @@ export interface CountryPageContent {
   accentClass: string
   hero: { headline: string; subheadline: string }
   intro: string
+  paragraphs: string[]
   statistics: Statistic[]
   keyEvents: KeyEvent[]
   systemicPatterns: SystemicPattern[]

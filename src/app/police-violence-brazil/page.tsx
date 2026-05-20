@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
 import HeroSection from '@/components/sections/HeroSection'
-import IntroSection from '@/components/sections/IntroSection'
-import QuoteSection from '@/components/sections/QuoteSection'
 import SourcesSection from '@/components/sections/SourcesSection'
+import AnimatedContent from '@/components/animations/AnimatedContent'
 import { policeBrazilContent } from '@/data/police-brazil'
 import { citations } from '@/data/sources'
 
@@ -19,8 +18,15 @@ export default function PoliceViolenceBrazilPage() {
         eyebrow="🇧🇷 Brazil"
         accentColor="brazil"
       />
-      <IntroSection text={policeBrazilContent.intro} />
-      <QuoteSection quote={policeBrazilContent.quote} accentColor="brazil" />
+      <section className="section-wrap">
+        <div className="max-w-3xl space-y-6">
+          {policeBrazilContent.paragraphs.map((p, i) => (
+            <AnimatedContent key={i} delay={i * 0.05}>
+              <p className="text-xl md:text-2xl text-ink-dim leading-relaxed font-sans">{p}</p>
+            </AnimatedContent>
+          ))}
+        </div>
+      </section>
       <SourcesSection citations={pageSources} />
     </>
   )
