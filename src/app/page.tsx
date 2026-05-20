@@ -1,16 +1,15 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import HeroSection from '@/components/sections/HeroSection'
-import QuoteSection from '@/components/sections/QuoteSection'
 import SourcesSection from '@/components/sections/SourcesSection'
 import AnimatedContent from '@/components/animations/AnimatedContent'
 import ScrollReveal from '@/components/animations/ScrollReveal'
 import FadeContent from '@/components/animations/FadeContent'
 import Magnet from '@/components/animations/Magnet'
 import ShinyText from '@/components/animations/ShinyText'
-import { homeHero, homeQuote } from '@/data/home'
+import { homeHero } from '@/data/home'
 import { historicalIntro } from '@/data/historical-context'
-import { familiesIntro, intergenerational } from '@/data/mental-health-families'
+import { intergenerational } from '@/data/mental-health-families'
 import { citations } from '@/data/sources'
 
 export const metadata: Metadata = { title: 'Home' }
@@ -167,56 +166,6 @@ export default function HomePage() {
           </AnimatedContent>
         </div>
       </section>
-
-      {/* ── COUNTRY NAVIGATION ── */}
-      <section className="py-16 bg-card border-y border-rim">
-        <div className="section-wrap">
-          <AnimatedContent className="mb-10">
-            <h2 className="section-heading">
-              Three Countries.{' '}
-              <span className="text-ink-dim">One Crisis.</span>
-            </h2>
-          </AnimatedContent>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[
-              {
-                label: 'United States', href: '/police-violence-usa', accent: 'usa', flag: '🇺🇸',
-                desc: 'During slavery, policing in the South included slave patrols, which were created to monitor slaves and suppress resistance. After the abolition of slavery in 1865, these systems evolved into new legal and social structures that continued to restrict their rights and freedom.',
-              },
-              {
-                label: 'United Kingdom', href: '/police-violence-uk', accent: 'uk', flag: '🇬🇧',
-                desc: 'In England and Wales, Black people are more than four times as likely to be stopped and searched compared to white people. Racial inequality within policing is linked to the country\'s history of colonialism and involvement in the transatlantic slave trade.',
-              },
-              {
-                label: 'Brazil', href: '/police-violence-brazil', accent: 'brazil', flag: '🇧🇷',
-                desc: 'Brazil received more enslaved African people than any other country in America, and was also the last country in the Western Hemisphere to officially abolish slavery in 1888.',
-              },
-            ].map((item, i) => (
-              <AnimatedContent key={item.href} delay={i * 0.1}>
-                <Link
-                  href={item.href}
-                  className="group block rounded-2xl border border-rim bg-canvas p-8 hover:bg-panel transition-all duration-300 h-full"
-                >
-                  <div className="flex items-start justify-between mb-6">
-                    <span className="text-4xl">{item.flag}</span>
-                    <span
-                      className="text-xs font-mono px-2 py-1 rounded-full border opacity-0 group-hover:opacity-100 transition-opacity"
-                      style={{ color: `var(--color-${item.accent})`, borderColor: `var(--color-${item.accent})50`, background: `var(--color-${item.accent})15` }}
-                    >
-                      Read more →
-                    </span>
-                  </div>
-                  <h3 className="font-display text-2xl font-bold text-ink mb-3">{item.label}</h3>
-                  <p className="text-sm text-ink-dim leading-relaxed">{item.desc}</p>
-                </Link>
-              </AnimatedContent>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── QUOTE ── */}
-      <QuoteSection quote={homeQuote} />
 
       {/* ── SOURCES ── */}
       <SourcesSection citations={homeSources} />

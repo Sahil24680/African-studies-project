@@ -82,8 +82,8 @@ export const policeUkContent: CountryPageContent = {
     },
   ],
   quote: {
-    text: '"Research published in The British Journal of Criminology: Racial Disparities in Civilian Response to Police Use of Force found that police use of force in London disproportionately affects Black communities and contributes to distrust toward police institutions."',
-    attribution: 'Bradford, Ben, and Jonathan Jackson',
-    role: 'The British Journal of Criminology, vol. 63, no. 2, 2023',
+    text: '"Because of this, community groups and anti-racist movements in the UK continue fighting against racial inequality through activism, education, and efforts to change unfair policies."',
+    attribution: 'United Kingdom',
+    role: 'Police Violence and Mental Health in the Global Black Experience',
   },
 }
